@@ -1,0 +1,733 @@
+(S
+  (NP (DT the) (NN tournament))
+  (VP
+    (VBD was)
+    (JJ notable)
+    (PP
+      (IN for)
+      (S
+        (NP (PRP it))
+        (VP
+          (VBG being)
+          (NP
+            (NP
+              (NP (DT the) (JJ final) (NN competition))
+              (SBAR
+                (S
+                  (NP (DT the) (NN home) (NNS nations))
+                  (VP
+                    (VBD competed)
+                    (PP (IN in))
+                    (SBAR
+                      (IN before)
+                      (S
+                        (NP (PRP they))
+                        (VP
+                          (VBD joined)
+                          (NP
+                            (DT the)
+                            (NNP FIFA)
+                            (NNP World)
+                            (NNP cup)))))))))
+            (CC and)
+            (RB thus)
+            (NP
+              (NP (DT the) (JJ last) (NN time))
+              (SBAR
+                (S
+                  (NP (PRP it))
+                  (VP
+                    (VBD was)
+                    (NP
+                      (NP
+                        (DT the)
+                        (ADJP (RBS most) (JJ important))
+                        (JJ international)
+                        (NN football)
+                        (NN tournament))
+                      (PP (IN in) (NP (NNP britain)))))))))))))
+  (. .))
+
+(S
+  (NP (DT this) (NN season))
+  (VP
+    (VBD marked)
+    (NP
+      (NP (DT the) (JJ last))
+      (SBAR
+        (S
+          (NP (DT the) (NNPS packers))
+          (VP
+            (MD would)
+            (VP
+              (VB play)
+              (PP
+                (IN under)
+                (NP
+                  (JJ legendary)
+                  (NN coach)
+                  (NNP curly)
+                  (NNP Lambeau)))))))))
+  (. .))
+
+(S
+  (NP (DT this))
+  (VP
+    (VBD represented)
+    (NP
+      (NP (DT a) (NN division))
+      (PP (IN of) (NP (NN work)))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP
+            (MD would)
+            (VP
+              (VB feature)
+              (ADVP (RB prominently))
+              (PP (IN in) (NP (JJ future) (NNP Beatles) (NNS songs)))
+              (PP
+                (IN with)
+                (S
+                  (NP (NNP Lennon) (CC and) (NNP McCartney))
+                  (NP (DT each))
+                  (VP
+                    (VBG singing)
+                    (NP
+                      (NP (DT the) (NNS parts))
+                      (SBAR
+                        (S
+                          (NP (PRP they))
+                          (VP
+                            (VBD composed)
+                            (ADVP (RB individually)))))))))))))))
+  (. .))
+
+(S
+  (NP (DT the) (NN story))
+  (VP
+    (VBZ shows)
+    (PP (IN through) (NP (NNS flashbacks)))
+    (NP
+      (NP (DT the) (JJ different) (NNS histories))
+      (PP (IN of) (NP (DT the) (NNS characters)))))
+  (. .))
+
+(S
+  (S
+    (NP (JJ english) (NN usage))
+    (VP
+      (VBZ differs)
+      (PP (IN in) (NP (DT some) (NNS cases)))
+      (PP (IN from) (NP (DT the) (JJ etymological) (NN use)))))
+  (CC and)
+  (S
+    (NP (NP (JJ several)) (PP (IN of) (NP (DT these) (NNS words))))
+    (VP
+      (VBP refer)
+      (PP (IN in) (NP (NNP english)))
+      (PP
+        (RB not)
+        (PP (TO to) (NP (RB brotherly) (NN love)))
+        (CC but)
+        (PP (TO to) (NP (JJ sexual) (NN attraction))))))
+  (. .))
+
+(S
+  (PP (PP (IN in) (NP (CD 1924))) (PP (IN in) (NP (NNP milan))))
+  (NP (PRP he))
+  (VP
+    (VBZ establishes)
+    (PP (IN with) (NP (NNP Morzenti)))
+    (NP
+      (PRP$ his)
+      (JJ own)
+      (NN publishing)
+      (NN house)
+      (NP (DT the) (NNP Mauzan) (NNP Morzenti) (NNP agency))))
+  (. .))
+
+(S
+  (NP (PRP it))
+  (VP
+    (VP
+      (VBD served)
+      (NP (DT the) (NNP united) (NNPS states))
+      (PP (IN in) (NP (DT both) (NNP world) (NNPS wars))))
+    (CC and)
+    (VP
+      (PP (IN in) (NP (DT the) (NNP korean) (NNP war)))
+      (NP
+        (NP (PRP$ its) (JJ last) (JJ major) (NN use))
+        (VP (VBG being) (PP (IN in) (NP (NNP vietnam)))))))
+  (. .))
+
+(S
+  (NP (DT the) (NN format))
+  (VP
+    (VBD consisted)
+    (PP
+      (IN of)
+      (NP
+        (NP (CD 12) (NNS games))
+        (SBAR
+          (S
+            (NP (DT each) (NN team))
+            (VP
+              (VBG facing)
+              (NP (DT the) (JJ other) (NNS teams))
+              (ADVP (RB twice))))))))
+  (. .))
+
+(S
+  (ADVP (RB alternatively))
+  (NP (NNP Telephus))
+  (VP
+    (VBD held)
+    (NP (NNS Orestes))
+    (PP (IN for) (NP (NN ransom)))
+    (NP
+      (NP (DT the) (NN ransom))
+      (VP
+        (VBG being)
+        (NP
+          (NP (NP (NNP Achilles) (POS ')) (NN aid))
+          (PP
+            (IN in)
+            (S (VP (VBG healing) (NP (DT the) (NN wound)))))))))
+  (. .))
+
+(S
+  (PP
+    (IN after)
+    (S
+      (VP
+        (VBG answering)
+        (NP (NP (DT a) (NN question)) (ADVP (RB correctly))))))
+  (NP
+    (NP (NNP mob) (NNS members))
+    (SBAR
+      (WHNP (WP who))
+      (S
+        (VP
+          (VBD answered)
+          (NP (DT that) (NN question))
+          (ADVP (RB incorrectly))))))
+  (VP
+    (VBP are)
+    (VP
+      (VBN eliminated)
+      (PP (IN from) (NP (DT the) (NN game)))
+      (S (VP (VBG leaving) (ADVP (JJ empty) (NN handed))))))
+  (. .))
+
+(S
+  (NP (CD 123) (NN Triazole))
+  (VP
+    (VBZ is)
+    (NP
+      (NP (CD one))
+      (PP
+        (IN of)
+        (NP
+          (NP (DT a) (NN pair))
+          (PP
+            (IN of)
+            (NP
+              (NP (JJ isomeric) (NN chemical) (NNS compounds))
+              (PP
+                (IN with)
+                (NP (JJ molecular) (NN formula) (CD C2H3N3)))))
+          (VP
+            (VBN called)
+            (S
+              (NP
+                (S (NP (NNS triazoles)))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP
+                      (VBP have)
+                      (NP
+                        (NP (DT a) (CD five) (JJ membered) (NN ring))
+                        (PP
+                          (IN of)
+                          (NP
+                            (NP (CD two) (NN carbon) (NNS atoms))
+                            (CC and)
+                            (NP (CD three) (NN nitrogen) (NNS atoms)))))))))))))))
+  (. .))
+
+(S
+  (NP (JJS most) (NN software))
+  (VP
+    (VBZ is)
+    (VP
+      (VBN produced)
+      (PP (IN in) (NP (JJ different) (NNS versions)))
+      (PP
+        (VBG starting)
+        (PP
+          (IN at)
+          (NP
+            (NP (JJ low) (JJ priced) (NN software))
+            (PP
+              (PP (IN for) (NP (JJ single) (NNS computers)))
+              (PP
+                (IN up)
+                (PP
+                  (TO to)
+                  (NP
+                    (NP (NNS versions))
+                    (PP
+                      (IN for)
+                      (NP
+                        (NP (NNS companies))
+                        (PP
+                          (IN with)
+                          (NP
+                            (JJ many)
+                            (NN desktop)
+                            (CC and)
+                            (NN server)
+                            (NNS computers))))))))))))))
+  (. .))
+
+(S
+  (NP
+    (NP (DT no) (JJ new) (JJ normal) (NNS registrations))
+    (PP (IN at) (NP (DT the) (JJ second) (NN level))))
+  (VP
+    (VBP are)
+    (VP
+      (VBN accepted)
+      (SBAR
+        (IN although)
+        (S
+          (NP (EX there))
+          (VP
+            (VBZ is)
+            (NP
+              (NP (DT a) (NN system))
+              (PP
+                (IN for)
+                (S
+                  (VP
+                    (VBG allocating)
+                    (NP
+                      (JJ new)
+                      (JJ second)
+                      (NN level)
+                      (NNS domains))
+                    (S
+                      (VP
+                        (TO to)
+                        (VP
+                          (VB expand)
+                          (NP
+                            (NP (DT the) (NN capacity))
+                            (PP (IN of) (NP (DT the) (NN system))))))))))))))))
+  (. .))
+
+(S
+  (NP
+    (NP
+      (DT the)
+      (JJ italian)
+      (NN mathematician)
+      (NNP Fibonacci)
+      (CC or)
+      (NNP Leonardo))
+    (PP (IN of) (NP (NNP Pisa))))
+  (VP
+    (VBD was)
+    (ADJP
+      (JJ instrumental)
+      (PP
+        (IN in)
+        (S
+          (VP
+            (VBG bringing)
+            (NP (DT the) (NN system))
+            (PP (IN into) (NP (JJ european) (NNS mathematics)))))))
+    (PP
+      (IN in)
+      (S (NP (CD 1202)) (S (VP (VBG stating) (NP (CD 176)))))))
+  (. .))
+
+(S
+  (NP (DT the) (NN following))
+  (VP
+    (VBP are)
+    (NP
+      (NP (DT some) (JJ basic) (JJ elementary) (NNS rules))
+      (PP
+        (IN for)
+        (S
+          (VP
+            (VBG dealing)
+            (PP (IN with) (NP (DT the) (NN number) (CD 0))))))))
+  (. .))
+
+(S
+  (NP (NN Fanny))
+  (VP
+    (VP (VBZ is) (ADJP (JJ alright)))
+    (CC but)
+    (VP
+      (VBZ is)
+      (ADJP
+        (RB somewhat)
+        (JJ difficult)
+        (SBAR (S (VP (TO to) (VP (VB silence))))))
+      (SBAR
+        (IN as)
+        (S
+          (NP (PRP they))
+          (VP
+            (VBP contact)
+            (NP (NNP London))
+            (PP (IN on) (NP (DT the) (NN radio)))
+            (PP (IN in) (NP (PRP$ her) (NN room))))))))
+  (. .))
+
+(S
+  (NP
+    (NP (DT The) (NNS articles))
+    (PP (IN in) (NP (DT the) (NNP Tongan) (NNP constitution)))
+    (PP
+      (IN about)
+      (NP (NP (DT the) (NN line)) (PP (IN of) (NP (NN succession))))))
+  (VP
+    (VBP are)
+    (ADJP
+      (RB very)
+      (JJ clear)
+      (PP
+        (IN about)
+        (S
+          (VP
+            (S
+              (VP (VBG stating) (NP (DT a) (JJ legal) (NN marriage))))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP
+                  (VBZ is)
+                  (PP
+                    (IN with)
+                    (NP
+                      (NP (DT the) (NN knowledge))
+                      (PP
+                        (IN of)
+                        (NP
+                          (NP
+                            (DT the)
+                            (JJ traditional)
+                            (NN viewpoint))
+                          (VP
+                            (VBN given)
+                            (ADVP
+                              (ADVP (IN above))
+                              (ADJP
+                                (RB much)
+                                (JJR easier)
+                                (SBAR
+                                  (S
+                                    (VP (TO to) (VP (VB understand))))))))))))))))))))
+  (. .))
+
+(S
+  (NP (NP (NNP Williams) (POS ')) (JJ dismal) (NN day))
+  (VP
+    (VBD continued)
+    (PP
+      (IN with)
+      (S
+        (NP (NNP Heidfeld))
+        (VP
+          (VBG pitting)
+          (PP (IN in) (NP (JJ consecutive) (NNS laps)))
+          (S
+            (VP
+              (VBG complaining)
+              (SBAR
+                (IN that)
+                (S
+                  (NP (PRP$ his) (NN car))
+                  (VP
+                    (VBD was)
+                    (ADJP
+                      (JJ impossible)
+                      (SBAR (S (VP (TO to) (VP (VB drive)))))))))))))))
+  (. .))
+
+(S
+  (PP (IN After) (NP (DT the) (NN wedding)))
+  (NP (PRP they))
+  (VP
+    (VBD started)
+    (S
+      (VP
+        (VBG putting)
+        (PRT (RP together))
+        (NP (DT a) (JJ full) (NN band))
+        (PP (IN under) (NP (DT the) (JJ new) (NN name))))))
+  (. .))
+
+(S
+  (NP (NNP Oakland))
+  (VP
+    (VBD held)
+    (PRT (RP off))
+    (NP
+      (NP (DT a) (JJ late) (NN comeback))
+      (PP (IN by) (NP (DT the) (NNPS Broncos))))
+    (S
+      (VP
+        (TO to)
+        (VP
+          (VB preserve)
+          (NP
+            (NP (DT a) (JJ narrow) (NN victory))
+            (PP (IN at) (NP (NNP Bears) (NNP Stadium))))))))
+  (. .))
+
+(S
+  (NP
+    (NP (DT The) (NN publication))
+    (PP (IN of) (NP (DT the) (NN book))))
+  (VP
+    (VBD was)
+    (NP (DT an) (JJ instant) (NN success))
+    (S
+      (VP
+        (VBG selling)
+        (PRT (RP out))
+        (NP (DT the) (JJ first) (NN edition))
+        (PP (IN in) (NP (QP (RB only) (CD six)) (NNS months))))))
+  (. .))
+
+(S
+  (NP (PRP$ Their) (NNS hopes))
+  (VP
+    (VBD were)
+    (VP
+      (VBN dashed)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP it))
+          (VP
+            (VBD turned)
+            (PRT (RP out))
+            (SBAR
+              (IN that)
+              (S
+                (NP (DT the) (JJ high) (NN command))
+                (VP
+                  (VBD had)
+                  (VP
+                    (VBN taken)
+                    (NP (NN power))
+                    (VP
+                      (VBN animated)
+                      (PP
+                        (IN by)
+                        (NP
+                          (NP
+                            (NP (DT the) (NN spectre))
+                            (PP
+                              (IN of)
+                              (NP (DT a) (JJ communist) (NN threat))))
+                          (CC and)
+                          (RB not)
+                          (NP
+                            (NP (DT a) (JJ radical) (NN group))
+                            (PP (IN of) (NP (NNS officers))))))
+                      (PP (IN as) (PP (IN in) (NP (CD 1960))))))))))))))
+  (. .))
+
+(S
+  (S (NP (NN Crew) (NN negligence)) (VP (VBZ is) (VP (VBN blamed))))
+  (CC and)
+  (S
+    (NP (PRP it))
+    (VP
+      (VBZ is)
+      (VP
+        (VBN suggested)
+        (SBAR
+          (IN that)
+          (S
+            (NP (DT the) (NN flight) (NN crew))
+            (VP (VBD were) (ADJP (JJ drunk))))))))
+  (. .))
+
+(S
+  (NP (NP (PRP It)))
+  (VP
+    (VBD cost)
+    (NP (NNS producers))
+    (NP (NP (NNS thousands)) (PP (IN of) (NP (NNS dollars))))
+    (S
+      (VP
+        (TO to)
+        (VP
+          (VB create)
+          (NP
+            (NP (NNS replicas))
+            (SBAR
+              (S
+                (VP
+                  (TO to)
+                  (VP (VB replace) (NP (DT the) (NNS originals)))))))))))
+  (. .))
+
+(S
+  (S
+    (NP (PRP He))
+    (VP
+      (VP
+        (VBZ tries)
+        (S (VP (TO to) (VP (VB hide) (NP (PRP himself))))))
+      (CC but)
+      (VP (VBZ is) (VP (VBN discovered)))))
+  (CC and)
+  (S
+    (S
+      (NP (NNP Diane))
+      (PP (IN in) (NP (NN anger)))
+      (VP
+        (VBZ turns)
+        (NP (PRP him))
+        (PP (IN into) (NP (DT a) (NN stag)))))
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP
+        (VBZ is)
+        (VP
+          (VP (VBN pursued))
+          (CC and)
+          (VP
+            (VBN torn)
+            (ADVP (RB apart))
+            (PP (IN by) (NP (PRP$ his) (JJ own) (NNS hounds))))))))
+  (. .))
+
+(S
+  (NP (NNS Players))
+  (VP
+    (VP (VBP go) (PP (TO to) (NP (DT the) (NN train) (NN station))))
+    (CC and)
+    (VP
+      (VB tell)
+      (NP (NNP Porter))
+      (SBAR
+        (IN that)
+        (S
+          (NP (PRP they))
+          (VP
+            (ADVP (CD 10))
+            (VP
+              (MD 'd)
+              (VP
+                (VB like)
+                (S (VP (TO to) (VP (VB take) (NP (DT a) (NN trip))))))))))))
+  (. .))
+
+(S
+  (NP (DT Some) (NNS religions))
+  (VP
+    (VBP encourage)
+    (S
+      (NP (PRP$ their) (NNS adherents))
+      (VP
+        (TO to)
+        (VP
+          (VB take)
+          (NP (NN part))
+          (PP
+            (IN in)
+            (NP
+              (NP (JJ other) (NNS forms))
+              (PP (IN of) (NP (NN activism)))))))))
+  (. .))
+
+(S
+  (NP (NP (DT the) (NN term)) (NP (JJ second) (NN generation)))
+  (VP
+    (VBD was)
+    (VP
+      (VBN applied)
+      (PP
+        (TO to)
+        (NP
+          (NP (JJ many) (JJ abstract) (NNS artists))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP
+                (VBD were)
+                (VP
+                  (VP (VBN related) (PP (TO to)))
+                  (CC but)
+                  (VP (VBG following))
+                  (NP
+                    (NP
+                      (JJ different)
+                      (JJ painterly)
+                      (NNS directions))
+                    (PP
+                      (IN than)
+                      (NP
+                        (DT the)
+                        (JJS earliest)
+                        (JJ abstract)
+                        (NNS expressionists))))))))))))
+  (. .))
+
+(S
+  (NP (JJ other) (NNS organizations))
+  (VP
+    (VBP sell)
+    (S
+      (VP
+        (TO to)
+        (VP
+          (VP (VB consult) (PP (IN with)))
+          (CC and)
+          (WHPP
+            (VP (VB support))
+            (NP (NNS clients))
+            (ADVP (RB directly)))
+          (VBG eliminating)
+          (NP (DT the) (NN reseller))))))
+  (. .))
+
+(S
+  (NP (JJ other) (NNS circumstances))
+  (VP
+    (MD may)
+    (VP
+      (VP (VB include))
+      (CC but)
+      (VP (VBP are) (RB not) (ADJP (VBN limited) (PP (TO to))))
+      (NP
+        (NP (NNS procedures))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBP are)
+              (ADJP
+                (ADJP
+                  (ADJP (RB minimally) (JJ invasive))
+                  (CC or)
+                  (ADJP (RB purely) (JJ diagnostic)))
+                (CC and)
+                (ADVP (RB thus))
+                (ADJP (RB not) (JJ uncomfortable)))))))))
+  (. .))
+

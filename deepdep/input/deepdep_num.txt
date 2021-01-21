@@ -1,0 +1,68 @@
+;;---------------------------------------------------------------------------
+;;Finite thatless relative clauses
+;;
+1001000700030 the-0 tournament-1 was-2 notable-3 for-4 it-5 being-6 the-7 final-8 competition-9 the-10 home-11 nations-12 competed-13 in-14 before-15 they-16 joined-17 the-18 FIFA-19 World-20 cup-21 and-22 thus-25 the-24 last-25 time-26 it-27 was-28 the-29 most-30 important-31 international-32 football-33 tournament-34 in-35 britain-36
+1001002900040 this-0 season-1 marked-2 the-3 last-4 the-5 packers-6 would-7 play-8 under-9 legendary-10 coach-11 curly-12 Lambeau-13
+1004006501040 this-0 represented-1 a-2 division-3 of-4 work-5 which-6 would-7 feature-8 prominently-9 in-10 future-11 Beatles-12 songs-13 with-14 Lennon-15 and-16 McCartney-17 each-18 singing-19 the-20 parts-21 they-22 composed-23 individually-24
+;;
+;;---------------------------------------------------------------------------
+;;Interleaved arguments and adjuncts
+;;
+1000056200090 the-0 story-1 shows-2 through-3 flashbacks-4 the-5 different-6 histories-7 of-8 the-9 characters-10
+1000058400070 english-0 usage-1 differs-2 in-3 some-4 cases-5 from-6 the-7 etymological-8 use-9 and-10 several-11 of-12 these-13 words-14 refer-15 in-16 english-17 not-18 to-19 brotherly-20 love-21 but-22 to-23 sexual-24 attraction-25
+1005059300090 in-0 1924-1 in-2 milan-3 he-4 establishes-5 with-6 Morzenti-7 his-8 own-9 publishing-10 house-11 the-12 Mauzan--13 Morzenti-14 agency-15
+;;
+;;---------------------------------------------------------------------------
+;;Absolutives
+;;
+1000065200110 it-0 served-1 the-2 united-3 states-4 in-5 both-6 world-7 wars-8 and-9 in-10 the-11 korean-12 war-13 its-14 last-15 major-16 use-17 being-18 in-19 vietnam-20
+1001061200040 the-0 format-1 consisted-2 of-3 12-4 games-5 each-6 team-7 facing-8 the-9 other-10 teams-11 twice-12
+1005061100410 alternatively-0 Telephus-1 held-2 Orestes-3 for-4 ransom-5 the-6 ransom-7 being-8 Achilles-9 '-10 aid-11 in-12 healing-13 the-14 wound-15
+;;---------------------------------------------------------------------------
+;;Adj-or-N + N-ed
+;;
+1000114900140 after-0 answering-1 a-2 question-3 correctly-4 mob-5 members-6 who-7 answered-8 that-9 question-10 incorrectly-11 are-12 eliminated-13 from-14 the-15 game-16 leaving-17 empty-18 handed-19
+1000117600020 123--0 Triazole-1 is-2 one-3 of-4 a-5 pair-6 of-7 isomeric-8 chemical-9 compounds-10 with-11 molecular-12 formula-13 C2H3N3-14 called-15 triazoles-16 which-17 have-18 a-19 five--20 membered-21 ring-22 of-23 two-24 carbon-25 atoms-26 and-27 three-28 nitrogen-29 atoms-30
+1005112400050 most-0 software-1 is-2 produced-3 in-4 different-5 versions-6 starting-7 at-8 low--9 priced-10 software-11 for-12 single-13 computers-14 up-15 to-16 versions-17 for-18 companies-19 with-20 many-21 desktop-22 and-23 server-24 computers-25
+;;
+;;---------------------------------------------------------------------------
+;;Verbal gerunds (skip |after|before|by| and one-word gerunds)
+;;
+1000100500250 no-0 new-1 normal-2 registrations-3 at-4 the-5 second-6 level-7 are-8 accepted-9 although-10 there-11 is-12 a-13 system-14 for-15 allocating-16 new-17 second-18 level-19 domains-20 to-21 expand-22 the-23 capacity-24 of-25 the-26 system-27
+1000102101240 the-0 italian-1 mathematician-2 Fibonacci-3 or-4 Leonardo-5 of-6 Pisa-7 was-8 instrumental-9 in-10 bringing-11 the-12 system-13 into-14 european-15 mathematics-16 in-17 1202-18 stating-19 176-20
+1000102101470 the-0 following-1 are-2 some-3 basic-4 elementary-5 rules-6 for-7 dealing-8 with-9 the-10 number-11 0-12
+;;
+;;---------------------------------------------------------------------------
+;;Tough adjectives
+;;
+1000020101720 Fanny-0 is-1 alright-2 but-3 is-4 somewhat-5 difficult-6 to-7 silence-8 as-9 they-10 contact-11 London-12 on-13 the-14 radio-15 in-16 her-17 room-18
+1000023400110 The-0 articles-1 in-2 the-3 Tongan-4 constitution-5 about-6 the-7 line-8 of-9 succession-10 are-11 very-12 clear-13 about-14 stating-15 a-16 legal-17 marriage-18 which-19 is-20 with-21 the-22 knowledge-23 of-24 the-25 traditional-26 viewpoint-27 given-28 above-29 much-30 easier-31 to-32 understand-33
+1002624500440 Williams'-0 dismal-1 day-2 continued-3 with-4 Heidfeld-5 pitting-6 in-7 consecutive-8 laps-9 complaining-10 that-11 his-12 car-13 was-14 impossible-15 to-16 drive-17
+;;
+;;---------------------------------------------------------------------------
+;; Verb-particles
+;;
+1000256900190 After-0 the-1 wedding-2 they-3 started-4 putting-5 together-6 a-7 full-8 band-9 under-10 the-11 12-12:06-13 name-14
+1001257300450 Oakland-0 held-1 off-2 a-3 late-4 comeback-5 by-6 the-7 Broncos-8 to-9 preserve-10 a-11 narrow-12 victory-13 at-14 Bears-15 Stadium-16
+1005258300750 The-0 publication-1 of-2 the-3 book-4 was-5 an-6 instant-7 success-8 selling-9 out-10 the-11 first-12 edition-13 in-14 only-15 six-16 months-17
+;;
+;;---------------------------------------------------------------------------
+;; Expletive it
+;;
+1001339800250 Their-0 hopes-1 were-2 dashed-3 when-4 it-5 turned-6 out-7 that-8 the-9 high-10 command-11 had-12 taken-13 power-14 animated-15 by-16 the-17 spectre-18 of-19 a-20 communist-21 threat-22 and-23 not-24 a-25 radical-26 group-27 of-28 officers-29 as-30 in-31 1960-32
+1002037300180 Crew-0 negligence-1 is-2 blamed-3 and-4 it-5 is-6 suggested-7 that-8 the-9 flight-10 crew-11 were-12 drunk-13
+1007435402200 It-0 cost-1 producers-2 thousands-3 of-4 dollars-5 to-6 create-7 replicas-8 to-9 replace-10 the-11 originals-12
+;;
+;;---------------------------------------------------------------------------
+;;Controlled VPs (seq, oeq, ssr, sor)
+;;
+1005172400080 He-0 tries-1 to-2 hide-3 himself-4 but-5 is-6 discovered-7 and-8 Diane-9 in-10 anger-11 turns-12 him-13 into-14 a-15 stag-16 and-17 he-18 is-19 pursued-20 and-21 torn-22 apart-23 by-24 his-25 own-26 hounds-27
+1009173101030 Players-0 go-1 to-2 the-3 train-4 station-5 and-6 tell-7 Porter-8 that-9 they-10'd-11 like-12 to-13 take-14 a-15 trip-16
+1005160300370 Some-0 religions-1 encourage-2 their-3 adherents-4 to-5 take-6 part-7 in-8 other-9 forms-10 of-11 activism-12
+;;
+;;---------------------------------------------------------------------------
+;;Right node raising items
+;;
+1001022702220 the-0 term-1 second-2 generation-3 was-4 applied-5 to-6 many-7 abstract-8 artists-9 who-10 were-11 related-12 to-13 but-14 following-15 different-16 painterly-17 directions-18 than-19 the-20 earliest-21 abstract-22 expressionists-23
+1005012800320 other-0 organizations-1 sell-2 to-3 consult-4 with-5 and-6 support-7 clients-8 directly-9 eliminating-10 the-11 reseller-12
+1009017100300 other-0 circumstances-1 may-2 include-3 but-4 are-5 not-6 limited-7 to-8 procedures-9 that-10 are-11 minimally-12 invasive-13 or-14 purely-15 diagnostic-16 and-17 thus-18 not-19 uncomfortable-20

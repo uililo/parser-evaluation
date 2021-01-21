@@ -1,0 +1,2393 @@
+Document: ID=input.txt (27 sentences, 681 tokens)
+
+Sentence #1 (10 tokens):
+The old car broke down in the car park.
+
+Tokens:
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=old CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=JJ]
+[Text=car CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=NN]
+[Text=broke CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=VBD]
+[Text=down CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=RP]
+[Text=in CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=DT]
+[Text=car CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=NN]
+[Text=park CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (DT The) (JJ old) (NN car))
+    (VP (VBD broke)
+      (PRT (RP down))
+      (PP (IN in)
+        (NP (DT the) (NN car) (NN park))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, broke-4)
+det(car-3, The-1)
+amod(car-3, old-2)
+nsubj(broke-4, car-3)
+prt(broke-4, down-5)
+prep(broke-4, in-6)
+det(park-9, the-7)
+nn(park-9, car-8)
+pobj(in-6, park-9)
+punct(broke-4, .-10)
+
+Sentence #2 (11 tokens):
+At least two men broke in and stole my TV.
+
+Tokens:
+[Text=At CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=IN]
+[Text=least CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=JJS]
+[Text=two CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=CD]
+[Text=men CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=NNS]
+[Text=broke CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=VBD]
+[Text=in CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=IN]
+[Text=and CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=CC]
+[Text=stole CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=VBD]
+[Text=my CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=PRP$]
+[Text=TV CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (QP
+        (ADVP (IN At) (JJS least))
+        (CD two))
+      (NNS men))
+    (VP
+      (VP (VBD broke)
+        (PP (IN in)))
+      (CC and)
+      (VP (VBD stole)
+        (NP (PRP$ my) (NN TV))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, broke-5)
+dep(two-3, At-1)
+pobj(At-1, least-2)
+num(men-4, two-3)
+nsubj(broke-5, men-4)
+prep(broke-5, in-6)
+cc(broke-5, and-7)
+conj(broke-5, stole-8)
+poss(TV-10, my-9)
+dobj(stole-8, TV-10)
+punct(broke-5, .-11)
+
+Sentence #3 (11 tokens):
+The horses were broken in and ridden in two weeks.
+
+Tokens:
+[Text=The CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=DT]
+[Text=horses CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=NNS]
+[Text=were CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=VBD]
+[Text=broken CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=RP]
+[Text=and CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=CC]
+[Text=ridden CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=IN]
+[Text=two CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=CD]
+[Text=weeks CharacterOffsetBegin=127 CharacterOffsetEnd=132 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (DT The) (NNS horses))
+    (VP (VBD were)
+      (VP
+        (VP (VBN broken)
+          (PRT (RP in)))
+        (CC and)
+        (VP (VBN ridden)
+          (PP (IN in)
+            (NP (CD two) (NNS weeks))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, broken-4)
+det(horses-2, The-1)
+nsubjpass(broken-4, horses-2)
+auxpass(broken-4, were-3)
+prt(broken-4, in-5)
+cc(broken-4, and-6)
+conj(broken-4, ridden-7)
+prep(ridden-7, in-8)
+num(weeks-10, two-9)
+pobj(in-8, weeks-10)
+punct(broken-4, .-11)
+
+Sentence #4 (10 tokens):
+Kim and Sandy both broke up with their partners.
+
+Tokens:
+[Text=Kim CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=CC]
+[Text=Sandy CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=NNP]
+[Text=both CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=DT]
+[Text=broke CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=VBD]
+[Text=up CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=RP]
+[Text=with CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=IN]
+[Text=their CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=PRP$]
+[Text=partners CharacterOffsetBegin=173 CharacterOffsetEnd=181 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNP Kim)
+      (CC and)
+      (NNP Sandy))
+    (DT both)
+    (VP (VBD broke)
+      (PRT (RP up))
+      (PP (IN with)
+        (NP (PRP$ their) (NNS partners))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, broke-5)
+nsubj(broke-5, Kim-1)
+cc(Kim-1, and-2)
+conj(Kim-1, Sandy-3)
+dep(broke-5, both-4)
+prt(broke-5, up-6)
+prep(broke-5, with-7)
+poss(partners-9, their-8)
+pobj(with-7, partners-9)
+punct(broke-5, .-10)
+
+Sentence #5 (13 tokens):
+The horse which Kim sometimes rides is more bad tempered than mine.
+
+Tokens:
+[Text=The CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=DT]
+[Text=horse CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=NN]
+[Text=which CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=WDT]
+[Text=Kim CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=NNP]
+[Text=sometimes CharacterOffsetBegin=203 CharacterOffsetEnd=212 PartOfSpeech=RB]
+[Text=rides CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=VBZ]
+[Text=is CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=VBZ]
+[Text=more CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=RBR]
+[Text=bad CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=JJ]
+[Text=tempered CharacterOffsetBegin=231 CharacterOffsetEnd=239 PartOfSpeech=VBN]
+[Text=than CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=IN]
+[Text=mine CharacterOffsetBegin=245 CharacterOffsetEnd=249 PartOfSpeech=PRP]
+[Text=. CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN horse))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (NNP Kim))
+          (ADVP (RB sometimes))
+          (VP (VBZ rides)))))
+    (VP (VBZ is)
+      (ADJP (RBR more) (JJ bad))
+      (S
+        (VP (VBN tempered)
+          (PP (IN than)
+            (NP (PRP mine))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, bad-9)
+det(horse-2, The-1)
+nsubj(bad-9, horse-2)
+ref(horse-2, which-3)
+dobj(rides-6, which-3)
+nsubj(rides-6, Kim-4)
+advmod(rides-6, sometimes-5)
+rcmod(horse-2, rides-6)
+cop(bad-9, is-7)
+advmod(bad-9, more-8)
+dep(bad-9, tempered-10)
+prep(tempered-10, than-11)
+pobj(than-11, mine-12)
+punct(bad-9, .-13)
+
+Sentence #6 (15 tokens):
+The horse as well as the rabbits which we wanted to eat have escaped.
+
+Tokens:
+[Text=The CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=DT]
+[Text=horse CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=NN]
+[Text=as CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=RB]
+[Text=well CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=RB]
+[Text=as CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT]
+[Text=rabbits CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=NNS]
+[Text=which CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=WDT]
+[Text=we CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=PRP]
+[Text=wanted CharacterOffsetBegin=293 CharacterOffsetEnd=299 PartOfSpeech=VBD]
+[Text=to CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=TO]
+[Text=eat CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=VB]
+[Text=have CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=VBP]
+[Text=escaped CharacterOffsetBegin=312 CharacterOffsetEnd=319 PartOfSpeech=VBN]
+[Text=. CharacterOffsetBegin=319 CharacterOffsetEnd=320 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN horse))
+      (CONJP (RB as) (RB well) (IN as))
+      (NP
+        (NP (DT the) (NNS rabbits))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD wanted)
+              (S
+                (VP (TO to)
+                  (VP (VB eat)))))))))
+    (VP (VBP have)
+      (VP (VBN escaped)))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, escaped-14)
+det(horse-2, The-1)
+nsubj(escaped-14, horse-2)
+advmod(well-4, as-3)
+mwe(well-4, as-3)
+cc(horse-2, well-4)
+mwe(well-4, as-5)
+det(rabbits-7, the-6)
+conj(horse-2, rabbits-7)
+ref(rabbits-7, which-8)
+dobj(wanted-10, which-8)
+nsubj(eat-12, which-8)
+nsubj(wanted-10, we-9)
+rcmod(rabbits-7, wanted-10)
+aux(eat-12, to-11)
+xcomp(wanted-10, eat-12)
+aux(escaped-14, have-13)
+punct(escaped-14, .-15)
+
+Sentence #7 (16 tokens):
+It was my aunt’s car which we sold at auction last year in February.
+
+Tokens:
+[Text=It CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=VBD]
+[Text=my CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=PRP$]
+[Text=aunt CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=NN]
+[Text=’s CharacterOffsetBegin=335 CharacterOffsetEnd=337 PartOfSpeech=POS]
+[Text=car CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=NN]
+[Text=which CharacterOffsetBegin=342 CharacterOffsetEnd=347 PartOfSpeech=WDT]
+[Text=we CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=PRP]
+[Text=sold CharacterOffsetBegin=351 CharacterOffsetEnd=355 PartOfSpeech=VBD]
+[Text=at CharacterOffsetBegin=356 CharacterOffsetEnd=358 PartOfSpeech=IN]
+[Text=auction CharacterOffsetBegin=359 CharacterOffsetEnd=366 PartOfSpeech=NN]
+[Text=last CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=JJ]
+[Text=year CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NN]
+[Text=in CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=IN]
+[Text=February CharacterOffsetBegin=380 CharacterOffsetEnd=388 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=388 CharacterOffsetEnd=389 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (PRP$ my) (NN aunt) (POS ’s))
+        (NN car)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD sold)
+              (PP (IN at)
+                (NP (NN auction)))
+              (NP-TMP (JJ last) (NN year))
+              (PP (IN in)
+                (NP (NNP February))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, car-6)
+nsubj(car-6, It-1)
+cop(car-6, was-2)
+poss(aunt-4, my-3)
+poss(car-6, aunt-4)
+possessive(aunt-4, ’s-5)
+dobj(sold-9, which-7)
+nsubj(sold-9, we-8)
+rcmod(aunt-4, sold-9)
+ccomp(car-6, sold-9)
+prep(sold-9, at-10)
+pobj(at-10, auction-11)
+amod(year-13, last-12)
+tmod(sold-9, year-13)
+prep(sold-9, in-14)
+pobj(in-14, February-15)
+punct(car-6, .-16)
+
+Sentence #8 (15 tokens):
+The only rabbit that I ever liked was eaten by my parents one summer.
+
+Tokens:
+[Text=The CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=DT]
+[Text=only CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=JJ]
+[Text=rabbit CharacterOffsetBegin=399 CharacterOffsetEnd=405 PartOfSpeech=NN]
+[Text=that CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=WDT]
+[Text=I CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=PRP]
+[Text=ever CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=RB]
+[Text=liked CharacterOffsetBegin=418 CharacterOffsetEnd=423 PartOfSpeech=VBD]
+[Text=was CharacterOffsetBegin=424 CharacterOffsetEnd=427 PartOfSpeech=VBD]
+[Text=eaten CharacterOffsetBegin=428 CharacterOffsetEnd=433 PartOfSpeech=VBN]
+[Text=by CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=IN]
+[Text=my CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=PRP$]
+[Text=parents CharacterOffsetBegin=440 CharacterOffsetEnd=447 PartOfSpeech=NNS]
+[Text=one CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=CD]
+[Text=summer CharacterOffsetBegin=452 CharacterOffsetEnd=458 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN rabbit))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (NP (PRP I))
+          (ADVP (RB ever))
+          (VP (VBD liked)))))
+    (VP (VBD was)
+      (VP (VBN eaten)
+        (PP (IN by)
+          (NP
+            (NP (PRP$ my) (NNS parents))
+            (NP-TMP (CD one) (NN summer))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, eaten-9)
+det(rabbit-3, The-1)
+amod(rabbit-3, only-2)
+nsubjpass(eaten-9, rabbit-3)
+ref(rabbit-3, that-4)
+dobj(liked-7, that-4)
+nsubj(liked-7, I-5)
+advmod(liked-7, ever-6)
+rcmod(rabbit-3, liked-7)
+auxpass(eaten-9, was-8)
+prep(eaten-9, by-10)
+poss(parents-12, my-11)
+pobj(by-10, parents-12)
+num(summer-14, one-13)
+tmod(parents-12, summer-14)
+punct(eaten-9, .-15)
+
+Sentence #9 (15 tokens):
+The veterans who I thought that we would meet at the reunion were dead.
+
+Tokens:
+[Text=The CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=DT]
+[Text=veterans CharacterOffsetBegin=464 CharacterOffsetEnd=472 PartOfSpeech=NNS]
+[Text=who CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=WP]
+[Text=I CharacterOffsetBegin=477 CharacterOffsetEnd=478 PartOfSpeech=PRP]
+[Text=thought CharacterOffsetBegin=479 CharacterOffsetEnd=486 PartOfSpeech=VBD]
+[Text=that CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=IN]
+[Text=we CharacterOffsetBegin=492 CharacterOffsetEnd=494 PartOfSpeech=PRP]
+[Text=would CharacterOffsetBegin=495 CharacterOffsetEnd=500 PartOfSpeech=MD]
+[Text=meet CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=VB]
+[Text=at CharacterOffsetBegin=506 CharacterOffsetEnd=508 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=DT]
+[Text=reunion CharacterOffsetBegin=513 CharacterOffsetEnd=520 PartOfSpeech=NN]
+[Text=were CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=VBD]
+[Text=dead CharacterOffsetBegin=526 CharacterOffsetEnd=530 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=530 CharacterOffsetEnd=531 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS veterans))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (NP (PRP I))
+          (VP (VBD thought)
+            (SBAR (IN that)
+              (S
+                (NP (PRP we))
+                (VP (MD would)
+                  (VP (VB meet)
+                    (PP (IN at)
+                      (NP (DT the) (NN reunion)))))))))))
+    (VP (VBD were)
+      (ADJP (JJ dead)))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, dead-14)
+det(veterans-2, The-1)
+nsubj(dead-14, veterans-2)
+ref(veterans-2, who-3)
+dobj(thought-5, who-3)
+nsubj(thought-5, I-4)
+rcmod(veterans-2, thought-5)
+mark(meet-9, that-6)
+nsubj(meet-9, we-7)
+aux(meet-9, would-8)
+ccomp(thought-5, meet-9)
+prep(meet-9, at-10)
+det(reunion-12, the-11)
+pobj(at-10, reunion-12)
+cop(dead-14, were-13)
+punct(dead-14, .-15)
+
+Sentence #10 (21 tokens):
+Natural disasters – storms, flooding, hurricanes – occur infrequently but cause devastation that strains resources to breaking point.
+
+Tokens:
+[Text=Natural CharacterOffsetBegin=532 CharacterOffsetEnd=539 PartOfSpeech=JJ]
+[Text=disasters CharacterOffsetBegin=540 CharacterOffsetEnd=549 PartOfSpeech=NNS]
+[Text=– CharacterOffsetBegin=550 CharacterOffsetEnd=551 PartOfSpeech=SYM]
+[Text=storms CharacterOffsetBegin=552 CharacterOffsetEnd=558 PartOfSpeech=NNS]
+[Text=, CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=,]
+[Text=flooding CharacterOffsetBegin=560 CharacterOffsetEnd=568 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=568 CharacterOffsetEnd=569 PartOfSpeech=,]
+[Text=hurricanes CharacterOffsetBegin=570 CharacterOffsetEnd=580 PartOfSpeech=NNS]
+[Text=– CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=SYM]
+[Text=occur CharacterOffsetBegin=583 CharacterOffsetEnd=588 PartOfSpeech=VBP]
+[Text=infrequently CharacterOffsetBegin=589 CharacterOffsetEnd=601 PartOfSpeech=RB]
+[Text=but CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=CC]
+[Text=cause CharacterOffsetBegin=606 CharacterOffsetEnd=611 PartOfSpeech=VB]
+[Text=devastation CharacterOffsetBegin=612 CharacterOffsetEnd=623 PartOfSpeech=NN]
+[Text=that CharacterOffsetBegin=624 CharacterOffsetEnd=628 PartOfSpeech=WDT]
+[Text=strains CharacterOffsetBegin=629 CharacterOffsetEnd=636 PartOfSpeech=VBZ]
+[Text=resources CharacterOffsetBegin=637 CharacterOffsetEnd=646 PartOfSpeech=NNS]
+[Text=to CharacterOffsetBegin=647 CharacterOffsetEnd=649 PartOfSpeech=IN]
+[Text=breaking CharacterOffsetBegin=650 CharacterOffsetEnd=658 PartOfSpeech=VBG]
+[Text=point CharacterOffsetBegin=659 CharacterOffsetEnd=664 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=664 CharacterOffsetEnd=665 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (JJ Natural) (NNS disasters))
+      (PP (SYM –)
+        (NP (NNS storms))))
+    (, ,)
+    (NP-TMP
+      (NP (NN flooding))
+      (, ,)
+      (NP (NNS hurricanes)))
+    (NP (SYM –))
+    (VP
+      (VP (VBP occur)
+        (ADVP (RB infrequently)))
+      (CC but)
+      (VP (VB cause)
+        (NP
+          (NP (NN devastation))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ strains)
+                (NP (NNS resources))
+                (PP (IN to)
+                  (S
+                    (VP (VBG breaking)
+                      (NP (NN point)))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, occur-10)
+amod(disasters-2, Natural-1)
+nsubj(occur-10, disasters-2)
+prep(disasters-2, –-3)
+pobj(–-3, storms-4)
+punct(occur-10, ,-5)
+tmod(occur-10, flooding-6)
+punct(flooding-6, ,-7)
+appos(flooding-6, hurricanes-8)
+nsubj(occur-10, –-9)
+advmod(occur-10, infrequently-11)
+cc(occur-10, but-12)
+conj(occur-10, cause-13)
+dobj(cause-13, devastation-14)
+ref(devastation-14, that-15)
+nsubj(strains-16, that-15)
+rcmod(devastation-14, strains-16)
+dobj(strains-16, resources-17)
+prep(strains-16, to-18)
+pcomp(to-18, breaking-19)
+dobj(breaking-19, point-20)
+punct(occur-10, .-21)
+
+Sentence #11 (27 tokens):
+Letters delivered on time by old-fashioned means are increasingly rare, so it is as well that that is not the only option available.
+
+Tokens:
+[Text=Letters CharacterOffsetBegin=666 CharacterOffsetEnd=673 PartOfSpeech=NNPS]
+[Text=delivered CharacterOffsetBegin=674 CharacterOffsetEnd=683 PartOfSpeech=VBD]
+[Text=on CharacterOffsetBegin=684 CharacterOffsetEnd=686 PartOfSpeech=IN]
+[Text=time CharacterOffsetBegin=687 CharacterOffsetEnd=691 PartOfSpeech=NN]
+[Text=by CharacterOffsetBegin=692 CharacterOffsetEnd=694 PartOfSpeech=IN]
+[Text=old CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=JJ]
+[Text=- CharacterOffsetBegin=698 CharacterOffsetEnd=699 PartOfSpeech=HYPH]
+[Text=fashioned CharacterOffsetBegin=699 CharacterOffsetEnd=708 PartOfSpeech=JJ]
+[Text=means CharacterOffsetBegin=709 CharacterOffsetEnd=714 PartOfSpeech=NNS]
+[Text=are CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=VBP]
+[Text=increasingly CharacterOffsetBegin=719 CharacterOffsetEnd=731 PartOfSpeech=RB]
+[Text=rare CharacterOffsetBegin=732 CharacterOffsetEnd=736 PartOfSpeech=JJ]
+[Text=, CharacterOffsetBegin=736 CharacterOffsetEnd=737 PartOfSpeech=,]
+[Text=so CharacterOffsetBegin=738 CharacterOffsetEnd=740 PartOfSpeech=IN]
+[Text=it CharacterOffsetBegin=741 CharacterOffsetEnd=743 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=744 CharacterOffsetEnd=746 PartOfSpeech=VBZ]
+[Text=as CharacterOffsetBegin=747 CharacterOffsetEnd=749 PartOfSpeech=RB]
+[Text=well CharacterOffsetBegin=750 CharacterOffsetEnd=754 PartOfSpeech=RB]
+[Text=that CharacterOffsetBegin=755 CharacterOffsetEnd=759 PartOfSpeech=IN]
+[Text=that CharacterOffsetBegin=760 CharacterOffsetEnd=764 PartOfSpeech=DT]
+[Text=is CharacterOffsetBegin=765 CharacterOffsetEnd=767 PartOfSpeech=VBZ]
+[Text=not CharacterOffsetBegin=768 CharacterOffsetEnd=771 PartOfSpeech=RB]
+[Text=the CharacterOffsetBegin=772 CharacterOffsetEnd=775 PartOfSpeech=DT]
+[Text=only CharacterOffsetBegin=776 CharacterOffsetEnd=780 PartOfSpeech=JJ]
+[Text=option CharacterOffsetBegin=781 CharacterOffsetEnd=787 PartOfSpeech=NN]
+[Text=available CharacterOffsetBegin=788 CharacterOffsetEnd=797 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=797 CharacterOffsetEnd=798 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (NNPS Letters)
+      (VP (VBD delivered)
+        (PP (IN on)
+          (NP (NN time)))
+        (PP (IN by)
+          (NP
+            (ADJP (JJ old) (HYPH -) (JJ fashioned))
+            (NNS means)))))
+    (VP (VBP are)
+      (ADJP (RB increasingly) (JJ rare))
+      (, ,)
+      (SBAR (IN so)
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (ADVP
+              (ADVP (RB as) (RB well))
+              (SBAR (IN that)
+                (S
+                  (NP (DT that))
+                  (VP (VBZ is) (RB not)
+                    (ADJP
+                      (NP (DT the) (JJ only) (NN option))
+                      (JJ available))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, rare-12)
+nsubj(rare-12, Letters-1)
+dep(Letters-1, delivered-2)
+prep(delivered-2, on-3)
+pobj(on-3, time-4)
+prep(delivered-2, by-5)
+amod(fashioned-8, old-6)
+punct(fashioned-8, --7)
+amod(means-9, fashioned-8)
+pobj(by-5, means-9)
+cop(rare-12, are-10)
+advmod(rare-12, increasingly-11)
+punct(rare-12, ,-13)
+mark(is-16, so-14)
+nsubj(is-16, it-15)
+advcl(rare-12, is-16)
+advmod(well-18, as-17)
+mwe(well-18, as-17)
+advmod(is-16, well-18)
+mark(available-26, that-19)
+nsubj(available-26, that-20)
+cop(available-26, is-21)
+neg(available-26, not-22)
+det(option-25, the-23)
+amod(option-25, only-24)
+npadvmod(available-26, option-25)
+advcl(well-18, available-26)
+ccomp(well-18, available-26)
+punct(rare-12, .-27)
+
+Sentence #12 (25 tokens):
+It won’t rain but there might be snow on high ground if the temperature stays about the same over the next 24 hours.
+
+Tokens:
+[Text=It CharacterOffsetBegin=799 CharacterOffsetEnd=801 PartOfSpeech=PRP]
+[Text=wo CharacterOffsetBegin=802 CharacterOffsetEnd=804 PartOfSpeech=MD]
+[Text=n’t CharacterOffsetBegin=804 CharacterOffsetEnd=807 PartOfSpeech=RB]
+[Text=rain CharacterOffsetBegin=808 CharacterOffsetEnd=812 PartOfSpeech=VB]
+[Text=but CharacterOffsetBegin=813 CharacterOffsetEnd=816 PartOfSpeech=CC]
+[Text=there CharacterOffsetBegin=817 CharacterOffsetEnd=822 PartOfSpeech=EX]
+[Text=might CharacterOffsetBegin=823 CharacterOffsetEnd=828 PartOfSpeech=MD]
+[Text=be CharacterOffsetBegin=829 CharacterOffsetEnd=831 PartOfSpeech=VB]
+[Text=snow CharacterOffsetBegin=832 CharacterOffsetEnd=836 PartOfSpeech=NN]
+[Text=on CharacterOffsetBegin=837 CharacterOffsetEnd=839 PartOfSpeech=IN]
+[Text=high CharacterOffsetBegin=840 CharacterOffsetEnd=844 PartOfSpeech=JJ]
+[Text=ground CharacterOffsetBegin=845 CharacterOffsetEnd=851 PartOfSpeech=NN]
+[Text=if CharacterOffsetBegin=852 CharacterOffsetEnd=854 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=855 CharacterOffsetEnd=858 PartOfSpeech=DT]
+[Text=temperature CharacterOffsetBegin=859 CharacterOffsetEnd=870 PartOfSpeech=NN]
+[Text=stays CharacterOffsetBegin=871 CharacterOffsetEnd=876 PartOfSpeech=VBZ]
+[Text=about CharacterOffsetBegin=877 CharacterOffsetEnd=882 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=883 CharacterOffsetEnd=886 PartOfSpeech=DT]
+[Text=same CharacterOffsetBegin=887 CharacterOffsetEnd=891 PartOfSpeech=JJ]
+[Text=over CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=897 CharacterOffsetEnd=900 PartOfSpeech=DT]
+[Text=next CharacterOffsetBegin=901 CharacterOffsetEnd=905 PartOfSpeech=JJ]
+[Text=24 CharacterOffsetBegin=906 CharacterOffsetEnd=908 PartOfSpeech=CD]
+[Text=hours CharacterOffsetBegin=909 CharacterOffsetEnd=914 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=914 CharacterOffsetEnd=915 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (MD wo) (RB n’t)
+        (VP (VB rain))))
+    (CC but)
+    (S
+      (NP (EX there))
+      (VP (MD might)
+        (VP (VB be)
+          (NP
+            (NP (NN snow))
+            (PP (IN on)
+              (NP (JJ high) (NN ground))))
+          (SBAR (IN if)
+            (S
+              (NP (DT the) (NN temperature))
+              (VP (VBZ stays)
+                (PP (IN about)
+                  (NP
+                    (NP (DT the) (JJ same))
+                    (PP (IN over)
+                      (NP (DT the) (JJ next) (CD 24) (NNS hours)))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, rain-4)
+nsubj(rain-4, It-1)
+aux(rain-4, wo-2)
+neg(rain-4, n’t-3)
+cc(rain-4, but-5)
+expl(snow-9, there-6)
+aux(snow-9, might-7)
+cop(snow-9, be-8)
+conj(rain-4, snow-9)
+prep(snow-9, on-10)
+amod(ground-12, high-11)
+pobj(on-10, ground-12)
+mark(stays-16, if-13)
+det(temperature-15, the-14)
+nsubj(stays-16, temperature-15)
+advcl(snow-9, stays-16)
+prep(stays-16, about-17)
+det(same-19, the-18)
+pobj(about-17, same-19)
+prep(same-19, over-20)
+det(hours-24, the-21)
+amod(hours-24, next-22)
+num(hours-24, 24-23)
+pobj(over-20, hours-24)
+punct(rain-4, .-25)
+
+Sentence #13 (25 tokens):
+The long and lonely road to redemption begins with self-reflection: the need to delve inwards to deconstruct layers of psychological obfuscation.
+
+Tokens:
+[Text=The CharacterOffsetBegin=916 CharacterOffsetEnd=919 PartOfSpeech=DT]
+[Text=long CharacterOffsetBegin=920 CharacterOffsetEnd=924 PartOfSpeech=JJ]
+[Text=and CharacterOffsetBegin=925 CharacterOffsetEnd=928 PartOfSpeech=CC]
+[Text=lonely CharacterOffsetBegin=929 CharacterOffsetEnd=935 PartOfSpeech=JJ]
+[Text=road CharacterOffsetBegin=936 CharacterOffsetEnd=940 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=941 CharacterOffsetEnd=943 PartOfSpeech=IN]
+[Text=redemption CharacterOffsetBegin=944 CharacterOffsetEnd=954 PartOfSpeech=NN]
+[Text=begins CharacterOffsetBegin=955 CharacterOffsetEnd=961 PartOfSpeech=VBZ]
+[Text=with CharacterOffsetBegin=962 CharacterOffsetEnd=966 PartOfSpeech=IN]
+[Text=self CharacterOffsetBegin=967 CharacterOffsetEnd=971 PartOfSpeech=NN]
+[Text=- CharacterOffsetBegin=971 CharacterOffsetEnd=972 PartOfSpeech=HYPH]
+[Text=reflection CharacterOffsetBegin=972 CharacterOffsetEnd=982 PartOfSpeech=NN]
+[Text=: CharacterOffsetBegin=982 CharacterOffsetEnd=983 PartOfSpeech=:]
+[Text=the CharacterOffsetBegin=984 CharacterOffsetEnd=987 PartOfSpeech=DT]
+[Text=need CharacterOffsetBegin=988 CharacterOffsetEnd=992 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=993 CharacterOffsetEnd=995 PartOfSpeech=TO]
+[Text=delve CharacterOffsetBegin=996 CharacterOffsetEnd=1001 PartOfSpeech=VB]
+[Text=inwards CharacterOffsetBegin=1002 CharacterOffsetEnd=1009 PartOfSpeech=RB]
+[Text=to CharacterOffsetBegin=1010 CharacterOffsetEnd=1012 PartOfSpeech=IN]
+[Text=deconstruct CharacterOffsetBegin=1013 CharacterOffsetEnd=1024 PartOfSpeech=NN]
+[Text=layers CharacterOffsetBegin=1025 CharacterOffsetEnd=1031 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=1032 CharacterOffsetEnd=1034 PartOfSpeech=IN]
+[Text=psychological CharacterOffsetBegin=1035 CharacterOffsetEnd=1048 PartOfSpeech=JJ]
+[Text=obfuscation CharacterOffsetBegin=1049 CharacterOffsetEnd=1060 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1060 CharacterOffsetEnd=1061 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The)
+        (ADJP (JJ long)
+          (CC and)
+          (JJ lonely))
+        (NN road))
+      (PP (IN to)
+        (NP (NN redemption))))
+    (VP (VBZ begins)
+      (PP (IN with)
+        (NP (NN self) (HYPH -) (NN reflection)))
+      (: :)
+      (S
+        (NP (DT the) (NN need))
+        (VP (TO to)
+          (VP (VB delve)
+            (ADVP (RB inwards))
+            (PP (IN to)
+              (NP
+                (NP (NN deconstruct) (NNS layers))
+                (PP (IN of)
+                  (NP (JJ psychological) (NN obfuscation)))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, begins-8)
+det(road-5, The-1)
+amod(road-5, long-2)
+cc(long-2, and-3)
+conj(long-2, lonely-4)
+nsubj(begins-8, road-5)
+prep(road-5, to-6)
+pobj(to-6, redemption-7)
+prep(begins-8, with-9)
+nn(reflection-12, self-10)
+punct(reflection-12, --11)
+pobj(with-9, reflection-12)
+punct(begins-8, :-13)
+det(need-15, the-14)
+dobj(begins-8, need-15)
+aux(delve-17, to-16)
+parataxis(begins-8, delve-17)
+xcomp(begins-8, delve-17)
+advmod(delve-17, inwards-18)
+prep(delve-17, to-19)
+nn(layers-21, deconstruct-20)
+pobj(to-19, layers-21)
+prep(layers-21, of-22)
+amod(obfuscation-24, psychological-23)
+pobj(of-22, obfuscation-24)
+punct(begins-8, .-25)
+
+Sentence #14 (30 tokens):
+My wildest dream is to build a POS tagger which processes 10K words per second and uses only 1MB of RAM, but it may prove too hard.
+
+Tokens:
+[Text=My CharacterOffsetBegin=1062 CharacterOffsetEnd=1064 PartOfSpeech=PRP$]
+[Text=wildest CharacterOffsetBegin=1065 CharacterOffsetEnd=1072 PartOfSpeech=JJ]
+[Text=dream CharacterOffsetBegin=1073 CharacterOffsetEnd=1078 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=1079 CharacterOffsetEnd=1081 PartOfSpeech=VBZ]
+[Text=to CharacterOffsetBegin=1082 CharacterOffsetEnd=1084 PartOfSpeech=TO]
+[Text=build CharacterOffsetBegin=1085 CharacterOffsetEnd=1090 PartOfSpeech=VB]
+[Text=a CharacterOffsetBegin=1091 CharacterOffsetEnd=1092 PartOfSpeech=DT]
+[Text=POS CharacterOffsetBegin=1093 CharacterOffsetEnd=1096 PartOfSpeech=NN]
+[Text=tagger CharacterOffsetBegin=1097 CharacterOffsetEnd=1103 PartOfSpeech=NN]
+[Text=which CharacterOffsetBegin=1104 CharacterOffsetEnd=1109 PartOfSpeech=WDT]
+[Text=processes CharacterOffsetBegin=1110 CharacterOffsetEnd=1119 PartOfSpeech=VBZ]
+[Text=10K CharacterOffsetBegin=1120 CharacterOffsetEnd=1123 PartOfSpeech=NN]
+[Text=words CharacterOffsetBegin=1124 CharacterOffsetEnd=1129 PartOfSpeech=NNS]
+[Text=per CharacterOffsetBegin=1130 CharacterOffsetEnd=1133 PartOfSpeech=IN]
+[Text=second CharacterOffsetBegin=1134 CharacterOffsetEnd=1140 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=1141 CharacterOffsetEnd=1144 PartOfSpeech=CC]
+[Text=uses CharacterOffsetBegin=1145 CharacterOffsetEnd=1149 PartOfSpeech=VBZ]
+[Text=only CharacterOffsetBegin=1150 CharacterOffsetEnd=1154 PartOfSpeech=RB]
+[Text=1 CharacterOffsetBegin=1155 CharacterOffsetEnd=1156 PartOfSpeech=CD]
+[Text=MB CharacterOffsetBegin=1156 CharacterOffsetEnd=1158 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=1159 CharacterOffsetEnd=1161 PartOfSpeech=IN]
+[Text=RAM CharacterOffsetBegin=1162 CharacterOffsetEnd=1165 PartOfSpeech=NNP]
+[Text=, CharacterOffsetBegin=1165 CharacterOffsetEnd=1166 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=1167 CharacterOffsetEnd=1170 PartOfSpeech=CC]
+[Text=it CharacterOffsetBegin=1171 CharacterOffsetEnd=1173 PartOfSpeech=PRP]
+[Text=may CharacterOffsetBegin=1174 CharacterOffsetEnd=1177 PartOfSpeech=MD]
+[Text=prove CharacterOffsetBegin=1178 CharacterOffsetEnd=1183 PartOfSpeech=VB]
+[Text=too CharacterOffsetBegin=1184 CharacterOffsetEnd=1187 PartOfSpeech=RB]
+[Text=hard CharacterOffsetBegin=1188 CharacterOffsetEnd=1192 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=1192 CharacterOffsetEnd=1193 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (S
+      (NP (PRP$ My) (JJ wildest) (NN dream))
+      (VP (VBZ is)
+        (S
+          (VP (TO to)
+            (VP (VB build)
+              (NP
+                (NP (DT a) (NN POS) (NN tagger))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP
+                      (VP (VBZ processes)
+                        (NP
+                          (NP (NN 10K) (NNS words))
+                          (PP (IN per)
+                            (NP (NN second)))))
+                      (CC and)
+                      (VP (VBZ uses)
+                        (NP
+                          (NP (RB only) (CD 1) (NN MB))
+                          (PP (IN of)
+                            (NP (NNP RAM))))))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (MD may)
+        (VP (VB prove)
+          (ADJP (RB too) (JJ hard)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, is-4)
+poss(dream-3, My-1)
+amod(dream-3, wildest-2)
+nsubj(is-4, dream-3)
+nsubj(build-6, dream-3)
+aux(build-6, to-5)
+xcomp(is-4, build-6)
+det(tagger-9, a-7)
+dep(tagger-9, POS-8)
+dobj(build-6, tagger-9)
+ref(tagger-9, which-10)
+nsubj(processes-11, which-10)
+rcmod(tagger-9, processes-11)
+nn(words-13, 10K-12)
+dobj(processes-11, words-13)
+prep(words-13, per-14)
+pobj(per-14, second-15)
+cc(processes-11, and-16)
+conj(processes-11, uses-17)
+advmod(MB-20, only-18)
+num(MB-20, 1-19)
+dobj(uses-17, MB-20)
+prep(MB-20, of-21)
+pobj(of-21, RAM-22)
+punct(is-4, ,-23)
+cc(is-4, but-24)
+nsubj(prove-27, it-25)
+aux(prove-27, may-26)
+conj(is-4, prove-27)
+advmod(hard-29, too-28)
+acomp(prove-27, hard-29)
+punct(is-4, .-30)
+
+Sentence #15 (53 tokens):
+English also has many words of more or less unique function, including interjections (oh, ah), negatives (no, not), politeness markers (please, thank you), and the existential ‘there’ (there are horses but not unicorns) among others.
+
+Tokens:
+[Text=English CharacterOffsetBegin=1194 CharacterOffsetEnd=1201 PartOfSpeech=NNP]
+[Text=also CharacterOffsetBegin=1202 CharacterOffsetEnd=1206 PartOfSpeech=RB]
+[Text=has CharacterOffsetBegin=1207 CharacterOffsetEnd=1210 PartOfSpeech=VBZ]
+[Text=many CharacterOffsetBegin=1211 CharacterOffsetEnd=1215 PartOfSpeech=JJ]
+[Text=words CharacterOffsetBegin=1216 CharacterOffsetEnd=1221 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=1222 CharacterOffsetEnd=1224 PartOfSpeech=IN]
+[Text=more CharacterOffsetBegin=1225 CharacterOffsetEnd=1229 PartOfSpeech=RBR]
+[Text=or CharacterOffsetBegin=1230 CharacterOffsetEnd=1232 PartOfSpeech=CC]
+[Text=less CharacterOffsetBegin=1233 CharacterOffsetEnd=1237 PartOfSpeech=RBR]
+[Text=unique CharacterOffsetBegin=1238 CharacterOffsetEnd=1244 PartOfSpeech=JJ]
+[Text=function CharacterOffsetBegin=1245 CharacterOffsetEnd=1253 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=1253 CharacterOffsetEnd=1254 PartOfSpeech=,]
+[Text=including CharacterOffsetBegin=1255 CharacterOffsetEnd=1264 PartOfSpeech=VBG]
+[Text=interjections CharacterOffsetBegin=1265 CharacterOffsetEnd=1278 PartOfSpeech=NNS]
+[Text=( CharacterOffsetBegin=1279 CharacterOffsetEnd=1280 PartOfSpeech=-LRB-]
+[Text=oh CharacterOffsetBegin=1280 CharacterOffsetEnd=1282 PartOfSpeech=UH]
+[Text=, CharacterOffsetBegin=1282 CharacterOffsetEnd=1283 PartOfSpeech=,]
+[Text=ah CharacterOffsetBegin=1284 CharacterOffsetEnd=1286 PartOfSpeech=UH]
+[Text=) CharacterOffsetBegin=1286 CharacterOffsetEnd=1287 PartOfSpeech=-RRB-]
+[Text=, CharacterOffsetBegin=1287 CharacterOffsetEnd=1288 PartOfSpeech=,]
+[Text=negatives CharacterOffsetBegin=1289 CharacterOffsetEnd=1298 PartOfSpeech=NNS]
+[Text=( CharacterOffsetBegin=1299 CharacterOffsetEnd=1300 PartOfSpeech=-LRB-]
+[Text=no CharacterOffsetBegin=1300 CharacterOffsetEnd=1302 PartOfSpeech=UH]
+[Text=, CharacterOffsetBegin=1302 CharacterOffsetEnd=1303 PartOfSpeech=,]
+[Text=not CharacterOffsetBegin=1304 CharacterOffsetEnd=1307 PartOfSpeech=RB]
+[Text=) CharacterOffsetBegin=1307 CharacterOffsetEnd=1308 PartOfSpeech=-RRB-]
+[Text=, CharacterOffsetBegin=1308 CharacterOffsetEnd=1309 PartOfSpeech=,]
+[Text=politeness CharacterOffsetBegin=1310 CharacterOffsetEnd=1320 PartOfSpeech=NN]
+[Text=markers CharacterOffsetBegin=1321 CharacterOffsetEnd=1328 PartOfSpeech=NNS]
+[Text=( CharacterOffsetBegin=1329 CharacterOffsetEnd=1330 PartOfSpeech=-LRB-]
+[Text=please CharacterOffsetBegin=1330 CharacterOffsetEnd=1336 PartOfSpeech=UH]
+[Text=, CharacterOffsetBegin=1336 CharacterOffsetEnd=1337 PartOfSpeech=,]
+[Text=thank CharacterOffsetBegin=1338 CharacterOffsetEnd=1343 PartOfSpeech=VBP]
+[Text=you CharacterOffsetBegin=1344 CharacterOffsetEnd=1347 PartOfSpeech=PRP]
+[Text=) CharacterOffsetBegin=1347 CharacterOffsetEnd=1348 PartOfSpeech=-RRB-]
+[Text=, CharacterOffsetBegin=1348 CharacterOffsetEnd=1349 PartOfSpeech=,]
+[Text=and CharacterOffsetBegin=1350 CharacterOffsetEnd=1353 PartOfSpeech=CC]
+[Text=the CharacterOffsetBegin=1354 CharacterOffsetEnd=1357 PartOfSpeech=DT]
+[Text=existential CharacterOffsetBegin=1358 CharacterOffsetEnd=1369 PartOfSpeech=JJ]
+[Text=‘ CharacterOffsetBegin=1370 CharacterOffsetEnd=1371 PartOfSpeech=``]
+[Text=there CharacterOffsetBegin=1371 CharacterOffsetEnd=1376 PartOfSpeech=EX]
+[Text=’ CharacterOffsetBegin=1376 CharacterOffsetEnd=1377 PartOfSpeech='']
+[Text=( CharacterOffsetBegin=1378 CharacterOffsetEnd=1379 PartOfSpeech=-LRB-]
+[Text=there CharacterOffsetBegin=1379 CharacterOffsetEnd=1384 PartOfSpeech=EX]
+[Text=are CharacterOffsetBegin=1385 CharacterOffsetEnd=1388 PartOfSpeech=VBP]
+[Text=horses CharacterOffsetBegin=1389 CharacterOffsetEnd=1395 PartOfSpeech=NNS]
+[Text=but CharacterOffsetBegin=1396 CharacterOffsetEnd=1399 PartOfSpeech=CC]
+[Text=not CharacterOffsetBegin=1400 CharacterOffsetEnd=1403 PartOfSpeech=RB]
+[Text=unicorns CharacterOffsetBegin=1404 CharacterOffsetEnd=1412 PartOfSpeech=NNS]
+[Text=) CharacterOffsetBegin=1412 CharacterOffsetEnd=1413 PartOfSpeech=-RRB-]
+[Text=among CharacterOffsetBegin=1414 CharacterOffsetEnd=1419 PartOfSpeech=IN]
+[Text=others CharacterOffsetBegin=1420 CharacterOffsetEnd=1426 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=1426 CharacterOffsetEnd=1427 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (S
+      (NP (NNP English))
+      (ADVP (RB also))
+      (VP (VBZ has)
+        (NP
+          (NP (JJ many) (NNS words))
+          (PP (IN of)
+            (NP
+              (ADJP
+                (ADVP (RBR more)
+                  (CC or)
+                  (RBR less))
+                (JJ unique))
+              (NN function)))
+          (, ,)
+          (PP (VBG including)
+            (NP
+              (NP (NNS interjections)
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (UH oh))
+                    (, ,)
+                    (NP (UH ah)))
+                  (-RRB- -RRB-)))
+              (, ,)
+              (NP
+                (NP (NNS negatives))
+                (-LRB- -LRB-)
+                (FRAG
+                  (INTJ (UH no))
+                  (, ,)
+                  (ADVP (RB not)))
+                (-RRB- -RRB-))
+              (, ,)
+              (NP (NN politeness) (NNS markers)))))))
+    (-LRB- -LRB-)
+    (S
+      (INTJ (UH please))
+      (, ,)
+      (S
+        (VP (VBP thank)))
+      (NP
+        (NP (PRP you))
+        (-RRB- -RRB-) (, ,)
+        (CC and)
+        (NP
+          (NP
+            (NP (DT the) (JJ existential))
+            (`` ‘)
+            (NP (EX there))
+            ('' ’))
+          (-LRB- -LRB-)
+          (NP (EX there))))
+      (VP (VBP are)
+        (NP
+          (NP (NNS horses))
+          (CONJP (CC but)
+            (RB not))
+          (NP (NNS unicorns))
+          (-RRB- -RRB-)
+          (PP (IN among)
+            (NP (NNS others))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, has-3)
+nsubj(has-3, English-1)
+advmod(has-3, also-2)
+amod(words-5, many-4)
+dobj(has-3, words-5)
+prep(words-5, of-6)
+advmod(unique-10, more-7)
+cc(more-7, or-8)
+conj(more-7, less-9)
+amod(function-11, unique-10)
+pobj(of-6, function-11)
+punct(words-5, ,-12)
+prep(words-5, including-13)
+pobj(including-13, interjections-14)
+punct(oh-16, (-15)
+dep(interjections-14, oh-16)
+punct(oh-16, ,-17)
+appos(oh-16, ah-18)
+punct(oh-16, )-19)
+punct(interjections-14, ,-20)
+appos(interjections-14, negatives-21)
+punct(negatives-21, (-22)
+discourse(not-25, no-23)
+punct(not-25, ,-24)
+dep(negatives-21, not-25)
+punct(negatives-21, )-26)
+punct(interjections-14, ,-27)
+nn(markers-29, politeness-28)
+appos(interjections-14, markers-29)
+punct(has-3, (-30)
+discourse(are-45, please-31)
+punct(are-45, ,-32)
+dep(are-45, thank-33)
+expl(are-45, you-34)
+nsubj(are-45, you-34)
+punct(you-34, )-35)
+punct(you-34, ,-36)
+cc(you-34, and-37)
+det(existential-39, the-38)
+conj(you-34, existential-39)
+punct(existential-39, ‘-40)
+dep(existential-39, there-41)
+punct(existential-39, ’-42)
+punct(existential-39, (-43)
+dep(existential-39, there-44)
+parataxis(has-3, are-45)
+dep(are-45, horses-46)
+cc(not-48, but-47)
+cc(horses-46, not-48)
+conj(horses-46, unicorns-49)
+punct(horses-46, )-50)
+conj(horses-46, among-51)
+prep(horses-46, among-51)
+pobj(among-51, others-52)
+punct(has-3, .-53)
+
+Sentence #16 (38 tokens):
+Making these decisions requires sophisticated knowledge of syntax; tagging manuals (Santorini, 1990) give various heuristics that can help human coders make these decisions and that can also provide useful features for automatic taggers.
+
+Tokens:
+[Text=Making CharacterOffsetBegin=1428 CharacterOffsetEnd=1434 PartOfSpeech=VBG]
+[Text=these CharacterOffsetBegin=1435 CharacterOffsetEnd=1440 PartOfSpeech=DT]
+[Text=decisions CharacterOffsetBegin=1441 CharacterOffsetEnd=1450 PartOfSpeech=NNS]
+[Text=requires CharacterOffsetBegin=1451 CharacterOffsetEnd=1459 PartOfSpeech=VBZ]
+[Text=sophisticated CharacterOffsetBegin=1460 CharacterOffsetEnd=1473 PartOfSpeech=JJ]
+[Text=knowledge CharacterOffsetBegin=1474 CharacterOffsetEnd=1483 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=1484 CharacterOffsetEnd=1486 PartOfSpeech=IN]
+[Text=syntax CharacterOffsetBegin=1487 CharacterOffsetEnd=1493 PartOfSpeech=NN]
+[Text=; CharacterOffsetBegin=1493 CharacterOffsetEnd=1494 PartOfSpeech=:]
+[Text=tagging CharacterOffsetBegin=1495 CharacterOffsetEnd=1502 PartOfSpeech=VBG]
+[Text=manuals CharacterOffsetBegin=1503 CharacterOffsetEnd=1510 PartOfSpeech=NNS]
+[Text=( CharacterOffsetBegin=1511 CharacterOffsetEnd=1512 PartOfSpeech=-LRB-]
+[Text=Santorini CharacterOffsetBegin=1512 CharacterOffsetEnd=1521 PartOfSpeech=NNP]
+[Text=, CharacterOffsetBegin=1521 CharacterOffsetEnd=1522 PartOfSpeech=,]
+[Text=1990 CharacterOffsetBegin=1523 CharacterOffsetEnd=1527 PartOfSpeech=CD]
+[Text=) CharacterOffsetBegin=1527 CharacterOffsetEnd=1528 PartOfSpeech=-RRB-]
+[Text=give CharacterOffsetBegin=1529 CharacterOffsetEnd=1533 PartOfSpeech=VBP]
+[Text=various CharacterOffsetBegin=1534 CharacterOffsetEnd=1541 PartOfSpeech=JJ]
+[Text=heuristics CharacterOffsetBegin=1542 CharacterOffsetEnd=1552 PartOfSpeech=NNS]
+[Text=that CharacterOffsetBegin=1553 CharacterOffsetEnd=1557 PartOfSpeech=WDT]
+[Text=can CharacterOffsetBegin=1558 CharacterOffsetEnd=1561 PartOfSpeech=MD]
+[Text=help CharacterOffsetBegin=1562 CharacterOffsetEnd=1566 PartOfSpeech=VB]
+[Text=human CharacterOffsetBegin=1567 CharacterOffsetEnd=1572 PartOfSpeech=JJ]
+[Text=coders CharacterOffsetBegin=1573 CharacterOffsetEnd=1579 PartOfSpeech=NNS]
+[Text=make CharacterOffsetBegin=1580 CharacterOffsetEnd=1584 PartOfSpeech=VBP]
+[Text=these CharacterOffsetBegin=1585 CharacterOffsetEnd=1590 PartOfSpeech=DT]
+[Text=decisions CharacterOffsetBegin=1591 CharacterOffsetEnd=1600 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=1601 CharacterOffsetEnd=1604 PartOfSpeech=CC]
+[Text=that CharacterOffsetBegin=1605 CharacterOffsetEnd=1609 PartOfSpeech=DT]
+[Text=can CharacterOffsetBegin=1610 CharacterOffsetEnd=1613 PartOfSpeech=MD]
+[Text=also CharacterOffsetBegin=1614 CharacterOffsetEnd=1618 PartOfSpeech=RB]
+[Text=provide CharacterOffsetBegin=1619 CharacterOffsetEnd=1626 PartOfSpeech=VB]
+[Text=useful CharacterOffsetBegin=1627 CharacterOffsetEnd=1633 PartOfSpeech=JJ]
+[Text=features CharacterOffsetBegin=1634 CharacterOffsetEnd=1642 PartOfSpeech=NNS]
+[Text=for CharacterOffsetBegin=1643 CharacterOffsetEnd=1646 PartOfSpeech=IN]
+[Text=automatic CharacterOffsetBegin=1647 CharacterOffsetEnd=1656 PartOfSpeech=JJ]
+[Text=taggers CharacterOffsetBegin=1657 CharacterOffsetEnd=1664 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=1664 CharacterOffsetEnd=1665 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (S
+      (S
+        (VP (VBG Making)
+          (SBAR
+            (S
+              (NP (DT these) (NNS decisions))
+              (VP (VBZ requires)
+                (NP
+                  (NP
+                    (NP (JJ sophisticated) (NN knowledge))
+                    (PP (IN of)
+                      (NP (NN syntax))))
+                  (: ;)
+                  (NP (VBG tagging) (NNS manuals)
+                    (PRN (-LRB- -LRB-)
+                      (NP (NNP Santorini))
+                      (, ,)
+                      (NP (CD 1990))
+                      (-RRB- -RRB-)))))))))
+      (VP (VBP give)
+        (SBAR
+          (S
+            (NP
+              (NP (JJ various) (NNS heuristics))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (MD can)
+                    (VP (VB help)
+                      (NP (JJ human) (NNS coders)))))))
+            (VP (VBP make)
+              (NP (DT these) (NNS decisions)))))))
+    (CC and)
+    (S
+      (NP (DT that))
+      (VP (MD can)
+        (ADVP (RB also))
+        (VP (VB provide)
+          (NP (JJ useful) (NNS features))
+          (PP (IN for)
+            (NP (JJ automatic) (NNS taggers))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, give-17)
+csubj(give-17, Making-1)
+det(decisions-3, these-2)
+nsubj(requires-4, decisions-3)
+ccomp(Making-1, requires-4)
+amod(knowledge-6, sophisticated-5)
+dobj(requires-4, knowledge-6)
+prep(knowledge-6, of-7)
+pobj(of-7, syntax-8)
+punct(knowledge-6, ;-9)
+amod(manuals-11, tagging-10)
+dep(knowledge-6, manuals-11)
+punct(Santorini-13, (-12)
+appos(manuals-11, Santorini-13)
+punct(Santorini-13, ,-14)
+dep(Santorini-13, 1990-15)
+punct(Santorini-13, )-16)
+amod(heuristics-19, various-18)
+nsubj(make-25, heuristics-19)
+ref(heuristics-19, that-20)
+nsubj(help-22, that-20)
+aux(help-22, can-21)
+rcmod(heuristics-19, help-22)
+amod(coders-24, human-23)
+dobj(help-22, coders-24)
+ccomp(give-17, make-25)
+det(decisions-27, these-26)
+dobj(make-25, decisions-27)
+cc(give-17, and-28)
+nsubj(provide-32, that-29)
+aux(provide-32, can-30)
+advmod(provide-32, also-31)
+conj(give-17, provide-32)
+amod(features-34, useful-33)
+dobj(provide-32, features-34)
+prep(provide-32, for-35)
+amod(taggers-37, automatic-36)
+pobj(for-35, taggers-37)
+punct(give-17, .-38)
+
+Sentence #17 (18 tokens):
+The Penn Treebank tagset was culled from the original 87-tag tagset for the Brown Corpus.
+
+Tokens:
+[Text=The CharacterOffsetBegin=1666 CharacterOffsetEnd=1669 PartOfSpeech=DT]
+[Text=Penn CharacterOffsetBegin=1670 CharacterOffsetEnd=1674 PartOfSpeech=NNP]
+[Text=Treebank CharacterOffsetBegin=1675 CharacterOffsetEnd=1683 PartOfSpeech=NNP]
+[Text=tagset CharacterOffsetBegin=1684 CharacterOffsetEnd=1690 PartOfSpeech=NN]
+[Text=was CharacterOffsetBegin=1691 CharacterOffsetEnd=1694 PartOfSpeech=VBD]
+[Text=culled CharacterOffsetBegin=1695 CharacterOffsetEnd=1701 PartOfSpeech=VBN]
+[Text=from CharacterOffsetBegin=1702 CharacterOffsetEnd=1706 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1707 CharacterOffsetEnd=1710 PartOfSpeech=DT]
+[Text=original CharacterOffsetBegin=1711 CharacterOffsetEnd=1719 PartOfSpeech=JJ]
+[Text=87 CharacterOffsetBegin=1720 CharacterOffsetEnd=1722 PartOfSpeech=CD]
+[Text=- CharacterOffsetBegin=1722 CharacterOffsetEnd=1723 PartOfSpeech=HYPH]
+[Text=tag CharacterOffsetBegin=1723 CharacterOffsetEnd=1726 PartOfSpeech=NN]
+[Text=tagset CharacterOffsetBegin=1727 CharacterOffsetEnd=1733 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=1734 CharacterOffsetEnd=1737 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1738 CharacterOffsetEnd=1741 PartOfSpeech=DT]
+[Text=Brown CharacterOffsetBegin=1742 CharacterOffsetEnd=1747 PartOfSpeech=NNP]
+[Text=Corpus CharacterOffsetBegin=1748 CharacterOffsetEnd=1754 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=1754 CharacterOffsetEnd=1755 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (DT The) (NNP Penn) (NNP Treebank) (NN tagset))
+    (VP (VBD was)
+      (VP (VBN culled)
+        (PP (IN from)
+          (NP
+            (NP (DT the) (JJ original)
+              (NML (CD 87) (HYPH -) (NN tag))
+              (NN tagset))
+            (PP (IN for)
+              (NP (DT the) (NNP Brown) (NNP Corpus)))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, culled-6)
+det(tagset-4, The-1)
+nn(tagset-4, Penn-2)
+nn(tagset-4, Treebank-3)
+nsubjpass(culled-6, tagset-4)
+auxpass(culled-6, was-5)
+prep(culled-6, from-7)
+det(tagset-13, the-8)
+amod(tagset-13, original-9)
+num(tag-12, 87-10)
+punct(tag-12, --11)
+nn(tagset-13, tag-12)
+pobj(from-7, tagset-13)
+prep(tagset-13, for-14)
+det(Corpus-17, the-15)
+nn(Corpus-17, Brown-16)
+pobj(for-14, Corpus-17)
+punct(culled-6, .-18)
+
+Sentence #18 (40 tokens):
+For example the original Brown and C5 tagsets include a separate tag for each of the different forms of the verbs do (e.g. C5 tag VDD for did and VDG tag for doing), be and have.
+
+Tokens:
+[Text=For CharacterOffsetBegin=1756 CharacterOffsetEnd=1759 PartOfSpeech=IN]
+[Text=example CharacterOffsetBegin=1760 CharacterOffsetEnd=1767 PartOfSpeech=NN]
+[Text=the CharacterOffsetBegin=1768 CharacterOffsetEnd=1771 PartOfSpeech=DT]
+[Text=original CharacterOffsetBegin=1772 CharacterOffsetEnd=1780 PartOfSpeech=JJ]
+[Text=Brown CharacterOffsetBegin=1781 CharacterOffsetEnd=1786 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=1787 CharacterOffsetEnd=1790 PartOfSpeech=CC]
+[Text=C5 CharacterOffsetBegin=1791 CharacterOffsetEnd=1793 PartOfSpeech=NN]
+[Text=tagsets CharacterOffsetBegin=1794 CharacterOffsetEnd=1801 PartOfSpeech=NNS]
+[Text=include CharacterOffsetBegin=1802 CharacterOffsetEnd=1809 PartOfSpeech=VBP]
+[Text=a CharacterOffsetBegin=1810 CharacterOffsetEnd=1811 PartOfSpeech=DT]
+[Text=separate CharacterOffsetBegin=1812 CharacterOffsetEnd=1820 PartOfSpeech=JJ]
+[Text=tag CharacterOffsetBegin=1821 CharacterOffsetEnd=1824 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=1825 CharacterOffsetEnd=1828 PartOfSpeech=IN]
+[Text=each CharacterOffsetBegin=1829 CharacterOffsetEnd=1833 PartOfSpeech=DT]
+[Text=of CharacterOffsetBegin=1834 CharacterOffsetEnd=1836 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1837 CharacterOffsetEnd=1840 PartOfSpeech=DT]
+[Text=different CharacterOffsetBegin=1841 CharacterOffsetEnd=1850 PartOfSpeech=JJ]
+[Text=forms CharacterOffsetBegin=1851 CharacterOffsetEnd=1856 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=1857 CharacterOffsetEnd=1859 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1860 CharacterOffsetEnd=1863 PartOfSpeech=DT]
+[Text=verbs CharacterOffsetBegin=1864 CharacterOffsetEnd=1869 PartOfSpeech=NNS]
+[Text=do CharacterOffsetBegin=1870 CharacterOffsetEnd=1872 PartOfSpeech=VBP]
+[Text=( CharacterOffsetBegin=1873 CharacterOffsetEnd=1874 PartOfSpeech=-LRB-]
+[Text=e.g. CharacterOffsetBegin=1874 CharacterOffsetEnd=1878 PartOfSpeech=FW]
+[Text=C5 CharacterOffsetBegin=1879 CharacterOffsetEnd=1881 PartOfSpeech=NN]
+[Text=tag CharacterOffsetBegin=1882 CharacterOffsetEnd=1885 PartOfSpeech=NN]
+[Text=VDD CharacterOffsetBegin=1886 CharacterOffsetEnd=1889 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=1890 CharacterOffsetEnd=1893 PartOfSpeech=IN]
+[Text=did CharacterOffsetBegin=1894 CharacterOffsetEnd=1897 PartOfSpeech=VBD]
+[Text=and CharacterOffsetBegin=1898 CharacterOffsetEnd=1901 PartOfSpeech=CC]
+[Text=VDG CharacterOffsetBegin=1902 CharacterOffsetEnd=1905 PartOfSpeech=NNP]
+[Text=tag CharacterOffsetBegin=1906 CharacterOffsetEnd=1909 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=1910 CharacterOffsetEnd=1913 PartOfSpeech=IN]
+[Text=doing CharacterOffsetBegin=1914 CharacterOffsetEnd=1919 PartOfSpeech=VBG]
+[Text=) CharacterOffsetBegin=1919 CharacterOffsetEnd=1920 PartOfSpeech=-RRB-]
+[Text=, CharacterOffsetBegin=1920 CharacterOffsetEnd=1921 PartOfSpeech=,]
+[Text=be CharacterOffsetBegin=1922 CharacterOffsetEnd=1924 PartOfSpeech=VB]
+[Text=and CharacterOffsetBegin=1925 CharacterOffsetEnd=1928 PartOfSpeech=CC]
+[Text=have CharacterOffsetBegin=1929 CharacterOffsetEnd=1933 PartOfSpeech=VB]
+[Text=. CharacterOffsetBegin=1933 CharacterOffsetEnd=1934 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (NP
+      (NP (DT the) (JJ original) (NNP Brown))
+      (CC and)
+      (NP (NN C5) (NNS tagsets)))
+    (VP (VBP include)
+      (SBAR
+        (S
+          (NP
+            (NP (DT a) (JJ separate) (NN tag))
+            (PP (IN for)
+              (NP
+                (NP (DT each))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (JJ different) (NNS forms))
+                    (PP (IN of)
+                      (NP (DT the) (NNS verbs))))))))
+          (VP (VBP do)
+            (NP
+              (NP (-LRB- -LRB-)
+                (ADVP (FW e.g.))
+                (NP (NN C5) (NN tag) (NN VDD))
+                (SBAR (IN for)
+                  (S
+                    (VP
+                      (VP (VBD did))
+                      (CC and)
+                      (VP
+                        (NP (NNP VDG) (NN tag))
+                        (PP (IN for)
+                          (S
+                            (VP (VBG doing))))))))
+                (-RRB- -RRB-))
+              (, ,)
+              (S
+                (VP
+                  (VP (VB be))
+                  (CC and)
+                  (VP (VB have)))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, include-9)
+prep(include-9, For-1)
+pobj(For-1, example-2)
+det(Brown-5, the-3)
+amod(Brown-5, original-4)
+nsubj(include-9, Brown-5)
+cc(Brown-5, and-6)
+nn(tagsets-8, C5-7)
+conj(Brown-5, tagsets-8)
+det(tag-12, a-10)
+amod(tag-12, separate-11)
+nsubj(do-22, tag-12)
+prep(tag-12, for-13)
+pobj(for-13, each-14)
+prep(each-14, of-15)
+det(forms-18, the-16)
+amod(forms-18, different-17)
+pobj(of-15, forms-18)
+prep(forms-18, of-19)
+det(verbs-21, the-20)
+pobj(of-19, verbs-21)
+ccomp(include-9, do-22)
+punct(VDD-27, (-23)
+advmod(VDD-27, e.g.-24)
+nn(VDD-27, C5-25)
+nn(VDD-27, tag-26)
+dobj(do-22, VDD-27)
+mark(did-29, for-28)
+dep(VDD-27, did-29)
+cc(did-29, and-30)
+nn(tag-32, VDG-31)
+conj(did-29, tag-32)
+prep(tag-32, for-33)
+pcomp(for-33, doing-34)
+punct(VDD-27, )-35)
+punct(VDD-27, ,-36)
+dep(VDD-27, be-37)
+cc(be-37, and-38)
+conj(be-37, have-39)
+punct(include-9, .-40)
+
+Sentence #19 (56 tokens):
+The slightly simplified version of the Viterbi algorithm that we present takes as input a single HMM and a sequence of observed words O = (o1,o2,...oT) and returns the most probable state/tag sequence Q = (q1,q2,qT) together with its probability.
+
+Tokens:
+[Text=The CharacterOffsetBegin=1935 CharacterOffsetEnd=1938 PartOfSpeech=DT]
+[Text=slightly CharacterOffsetBegin=1939 CharacterOffsetEnd=1947 PartOfSpeech=RB]
+[Text=simplified CharacterOffsetBegin=1948 CharacterOffsetEnd=1958 PartOfSpeech=VBN]
+[Text=version CharacterOffsetBegin=1959 CharacterOffsetEnd=1966 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=1967 CharacterOffsetEnd=1969 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1970 CharacterOffsetEnd=1973 PartOfSpeech=DT]
+[Text=Viterbi CharacterOffsetBegin=1974 CharacterOffsetEnd=1981 PartOfSpeech=NNP]
+[Text=algorithm CharacterOffsetBegin=1982 CharacterOffsetEnd=1991 PartOfSpeech=NN]
+[Text=that CharacterOffsetBegin=1992 CharacterOffsetEnd=1996 PartOfSpeech=WDT]
+[Text=we CharacterOffsetBegin=1997 CharacterOffsetEnd=1999 PartOfSpeech=PRP]
+[Text=present CharacterOffsetBegin=2000 CharacterOffsetEnd=2007 PartOfSpeech=VBP]
+[Text=takes CharacterOffsetBegin=2008 CharacterOffsetEnd=2013 PartOfSpeech=VBZ]
+[Text=as CharacterOffsetBegin=2014 CharacterOffsetEnd=2016 PartOfSpeech=IN]
+[Text=input CharacterOffsetBegin=2017 CharacterOffsetEnd=2022 PartOfSpeech=NN]
+[Text=a CharacterOffsetBegin=2023 CharacterOffsetEnd=2024 PartOfSpeech=DT]
+[Text=single CharacterOffsetBegin=2025 CharacterOffsetEnd=2031 PartOfSpeech=JJ]
+[Text=HMM CharacterOffsetBegin=2032 CharacterOffsetEnd=2035 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=2036 CharacterOffsetEnd=2039 PartOfSpeech=CC]
+[Text=a CharacterOffsetBegin=2040 CharacterOffsetEnd=2041 PartOfSpeech=DT]
+[Text=sequence CharacterOffsetBegin=2042 CharacterOffsetEnd=2050 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=2051 CharacterOffsetEnd=2053 PartOfSpeech=IN]
+[Text=observed CharacterOffsetBegin=2054 CharacterOffsetEnd=2062 PartOfSpeech=VBN]
+[Text=words CharacterOffsetBegin=2063 CharacterOffsetEnd=2068 PartOfSpeech=NNS]
+[Text=O CharacterOffsetBegin=2069 CharacterOffsetEnd=2070 PartOfSpeech=NN]
+[Text== CharacterOffsetBegin=2071 CharacterOffsetEnd=2072 PartOfSpeech=SYM]
+[Text=( CharacterOffsetBegin=2073 CharacterOffsetEnd=2074 PartOfSpeech=-LRB-]
+[Text=o1 CharacterOffsetBegin=2074 CharacterOffsetEnd=2076 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=2076 CharacterOffsetEnd=2077 PartOfSpeech=,]
+[Text=o2 CharacterOffsetBegin=2077 CharacterOffsetEnd=2079 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=2079 CharacterOffsetEnd=2080 PartOfSpeech=,]
+[Text=... CharacterOffsetBegin=2080 CharacterOffsetEnd=2083 PartOfSpeech=:]
+[Text=oT CharacterOffsetBegin=2083 CharacterOffsetEnd=2085 PartOfSpeech=NN]
+[Text=) CharacterOffsetBegin=2085 CharacterOffsetEnd=2086 PartOfSpeech=-RRB-]
+[Text=and CharacterOffsetBegin=2087 CharacterOffsetEnd=2090 PartOfSpeech=CC]
+[Text=returns CharacterOffsetBegin=2091 CharacterOffsetEnd=2098 PartOfSpeech=VBZ]
+[Text=the CharacterOffsetBegin=2099 CharacterOffsetEnd=2102 PartOfSpeech=DT]
+[Text=most CharacterOffsetBegin=2103 CharacterOffsetEnd=2107 PartOfSpeech=RBS]
+[Text=probable CharacterOffsetBegin=2108 CharacterOffsetEnd=2116 PartOfSpeech=JJ]
+[Text=state CharacterOffsetBegin=2117 CharacterOffsetEnd=2122 PartOfSpeech=NN]
+[Text=/ CharacterOffsetBegin=2122 CharacterOffsetEnd=2123 PartOfSpeech=HYPH]
+[Text=tag CharacterOffsetBegin=2123 CharacterOffsetEnd=2126 PartOfSpeech=NN]
+[Text=sequence CharacterOffsetBegin=2127 CharacterOffsetEnd=2135 PartOfSpeech=NN]
+[Text=Q CharacterOffsetBegin=2136 CharacterOffsetEnd=2137 PartOfSpeech=NN]
+[Text== CharacterOffsetBegin=2138 CharacterOffsetEnd=2139 PartOfSpeech=SYM]
+[Text=( CharacterOffsetBegin=2140 CharacterOffsetEnd=2141 PartOfSpeech=-LRB-]
+[Text=q1 CharacterOffsetBegin=2141 CharacterOffsetEnd=2143 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=2143 CharacterOffsetEnd=2144 PartOfSpeech=,]
+[Text=q2 CharacterOffsetBegin=2144 CharacterOffsetEnd=2146 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=2146 CharacterOffsetEnd=2147 PartOfSpeech=,]
+[Text=qT CharacterOffsetBegin=2147 CharacterOffsetEnd=2149 PartOfSpeech=NN]
+[Text=) CharacterOffsetBegin=2149 CharacterOffsetEnd=2150 PartOfSpeech=-RRB-]
+[Text=together CharacterOffsetBegin=2151 CharacterOffsetEnd=2159 PartOfSpeech=RB]
+[Text=with CharacterOffsetBegin=2160 CharacterOffsetEnd=2164 PartOfSpeech=IN]
+[Text=its CharacterOffsetBegin=2165 CharacterOffsetEnd=2168 PartOfSpeech=PRP$]
+[Text=probability CharacterOffsetBegin=2169 CharacterOffsetEnd=2180 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=2180 CharacterOffsetEnd=2181 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (RB slightly) (VBN simplified) (NN version))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NNP Viterbi) (NN algorithm))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (NP (PRP we))
+              (VP (VBP present)))))))
+    (VP
+      (VP (VBZ takes)
+        (PP (IN as)
+          (NP (NN input)))
+        (NP
+          (NP (DT a) (JJ single) (NN HMM))
+          (CC and)
+          (NP
+            (NP (DT a) (NN sequence))
+            (PP (IN of)
+              (NP
+                (NP (VBN observed) (NNS words))
+                (NP
+                  (NP (NN O) (SYM =))
+                  (-LRB- -LRB-)
+                  (NP
+                    (NP
+                      (NP (NN o1))
+                      (, ,)
+                      (NP (NN o2))
+                      (, ,))
+                    (: ...)
+                    (NP (NN oT)))
+                  (-RRB- -RRB-)))))))
+      (CC and)
+      (VP (VBZ returns)
+        (NP (DT the)
+          (ADJP (RBS most) (JJ probable))
+          (NML (NN state) (HYPH /) (NN tag))
+          (NN sequence)
+          (PRN
+            (FRAG
+              (NP (NN Q) (SYM =))
+              (-LRB- -LRB-)
+              (NP (NN q1) (, ,) (NN q2) (, ,) (NN qT))
+              (-RRB- -RRB-))))
+        (ADVP (RB together))
+        (PP (IN with)
+          (NP (PRP$ its) (NN probability)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, takes-12)
+det(version-4, The-1)
+advmod(version-4, slightly-2)
+amod(version-4, simplified-3)
+nsubj(takes-12, version-4)
+prep(version-4, of-5)
+det(algorithm-8, the-6)
+nn(algorithm-8, Viterbi-7)
+pobj(of-5, algorithm-8)
+ref(algorithm-8, that-9)
+dobj(present-11, that-9)
+nsubj(present-11, we-10)
+rcmod(algorithm-8, present-11)
+prep(takes-12, as-13)
+pobj(as-13, input-14)
+det(HMM-17, a-15)
+amod(HMM-17, single-16)
+dobj(takes-12, HMM-17)
+cc(HMM-17, and-18)
+det(sequence-20, a-19)
+conj(HMM-17, sequence-20)
+prep(sequence-20, of-21)
+amod(words-23, observed-22)
+pobj(of-21, words-23)
+dep(words-23, O-24)
+dep(O-24, =-25)
+punct(O-24, (-26)
+dep(O-24, o1-27)
+punct(o1-27, ,-28)
+appos(o1-27, o2-29)
+punct(o1-27, ,-30)
+punct(o1-27, ...-31)
+dep(o1-27, oT-32)
+punct(O-24, )-33)
+cc(takes-12, and-34)
+conj(takes-12, returns-35)
+det(sequence-42, the-36)
+advmod(probable-38, most-37)
+amod(sequence-42, probable-38)
+nn(tag-41, state-39)
+punct(tag-41, /-40)
+nn(sequence-42, tag-41)
+dobj(returns-35, sequence-42)
+dep(sequence-42, Q-43)
+dep(Q-43, =-44)
+punct(Q-43, (-45)
+nn(qT-50, q1-46)
+punct(qT-50, ,-47)
+dep(qT-50, q2-48)
+punct(qT-50, ,-49)
+dep(Q-43, qT-50)
+punct(Q-43, )-51)
+advmod(returns-35, together-52)
+prep(returns-35, with-53)
+poss(probability-55, its-54)
+pobj(with-53, probability-55)
+punct(takes-12, .-56)
+
+Sentence #20 (39 tokens):
+Thus the EM-trained “pure HMM” tagger is probably best suited to cases where no training data is available, for example, when tagging languages for which no data was previously hand-tagged.
+
+Tokens:
+[Text=Thus CharacterOffsetBegin=2182 CharacterOffsetEnd=2186 PartOfSpeech=RB]
+[Text=the CharacterOffsetBegin=2187 CharacterOffsetEnd=2190 PartOfSpeech=DT]
+[Text=EM CharacterOffsetBegin=2191 CharacterOffsetEnd=2193 PartOfSpeech=NNP]
+[Text=- CharacterOffsetBegin=2193 CharacterOffsetEnd=2194 PartOfSpeech=HYPH]
+[Text=trained CharacterOffsetBegin=2194 CharacterOffsetEnd=2201 PartOfSpeech=VBN]
+[Text=“ CharacterOffsetBegin=2202 CharacterOffsetEnd=2203 PartOfSpeech=``]
+[Text=pure CharacterOffsetBegin=2203 CharacterOffsetEnd=2207 PartOfSpeech=JJ]
+[Text=HMM CharacterOffsetBegin=2208 CharacterOffsetEnd=2211 PartOfSpeech=NN]
+[Text=” CharacterOffsetBegin=2211 CharacterOffsetEnd=2212 PartOfSpeech='']
+[Text=tagger CharacterOffsetBegin=2213 CharacterOffsetEnd=2219 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=2220 CharacterOffsetEnd=2222 PartOfSpeech=VBZ]
+[Text=probably CharacterOffsetBegin=2223 CharacterOffsetEnd=2231 PartOfSpeech=RB]
+[Text=best CharacterOffsetBegin=2232 CharacterOffsetEnd=2236 PartOfSpeech=JJS]
+[Text=suited CharacterOffsetBegin=2237 CharacterOffsetEnd=2243 PartOfSpeech=JJ]
+[Text=to CharacterOffsetBegin=2244 CharacterOffsetEnd=2246 PartOfSpeech=IN]
+[Text=cases CharacterOffsetBegin=2247 CharacterOffsetEnd=2252 PartOfSpeech=NNS]
+[Text=where CharacterOffsetBegin=2253 CharacterOffsetEnd=2258 PartOfSpeech=WRB]
+[Text=no CharacterOffsetBegin=2259 CharacterOffsetEnd=2261 PartOfSpeech=DT]
+[Text=training CharacterOffsetBegin=2262 CharacterOffsetEnd=2270 PartOfSpeech=NN]
+[Text=data CharacterOffsetBegin=2271 CharacterOffsetEnd=2275 PartOfSpeech=NNS]
+[Text=is CharacterOffsetBegin=2276 CharacterOffsetEnd=2278 PartOfSpeech=VBZ]
+[Text=available CharacterOffsetBegin=2279 CharacterOffsetEnd=2288 PartOfSpeech=JJ]
+[Text=, CharacterOffsetBegin=2288 CharacterOffsetEnd=2289 PartOfSpeech=,]
+[Text=for CharacterOffsetBegin=2290 CharacterOffsetEnd=2293 PartOfSpeech=IN]
+[Text=example CharacterOffsetBegin=2294 CharacterOffsetEnd=2301 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=2301 CharacterOffsetEnd=2302 PartOfSpeech=,]
+[Text=when CharacterOffsetBegin=2303 CharacterOffsetEnd=2307 PartOfSpeech=WRB]
+[Text=tagging CharacterOffsetBegin=2308 CharacterOffsetEnd=2315 PartOfSpeech=VBG]
+[Text=languages CharacterOffsetBegin=2316 CharacterOffsetEnd=2325 PartOfSpeech=NNS]
+[Text=for CharacterOffsetBegin=2326 CharacterOffsetEnd=2329 PartOfSpeech=IN]
+[Text=which CharacterOffsetBegin=2330 CharacterOffsetEnd=2335 PartOfSpeech=WDT]
+[Text=no CharacterOffsetBegin=2336 CharacterOffsetEnd=2338 PartOfSpeech=DT]
+[Text=data CharacterOffsetBegin=2339 CharacterOffsetEnd=2343 PartOfSpeech=NNS]
+[Text=was CharacterOffsetBegin=2344 CharacterOffsetEnd=2347 PartOfSpeech=VBD]
+[Text=previously CharacterOffsetBegin=2348 CharacterOffsetEnd=2358 PartOfSpeech=RB]
+[Text=hand CharacterOffsetBegin=2359 CharacterOffsetEnd=2363 PartOfSpeech=NN]
+[Text=- CharacterOffsetBegin=2363 CharacterOffsetEnd=2364 PartOfSpeech=HYPH]
+[Text=tagged CharacterOffsetBegin=2364 CharacterOffsetEnd=2370 PartOfSpeech=VBN]
+[Text=. CharacterOffsetBegin=2370 CharacterOffsetEnd=2371 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (DT the)
+      (ADJP (NNP EM) (HYPH -) (VBN trained))
+      (NML (`` “) (JJ pure) (NN HMM) ('' ”))
+      (NN tagger))
+    (VP (VBZ is)
+      (ADVP (RB probably))
+      (ADJP
+        (ADJP (JJS best) (JJ suited))
+        (PP (IN to)
+          (NP (NNS cases))))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (DT no) (NN training) (NNS data))
+          (VP (VBZ is)
+            (ADJP (JJ available))
+            (, ,)
+            (PP (IN for)
+              (NP (NN example)))
+            (, ,)
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (VP (VBG tagging)
+                  (NP
+                    (NP (NNS languages))
+                    (SBAR
+                      (WHPP (IN for)
+                        (WHNP (WDT which)))
+                      (S
+                        (NP (DT no) (NNS data))
+                        (VP (VBD was)
+                          (ADJP (RB previously) (NN hand) (HYPH -) (VBN tagged)))))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, suited-14)
+advmod(suited-14, Thus-1)
+det(tagger-10, the-2)
+npadvmod(trained-5, EM-3)
+punct(trained-5, --4)
+amod(tagger-10, trained-5)
+punct(HMM-8, “-6)
+amod(HMM-8, pure-7)
+nn(tagger-10, HMM-8)
+punct(HMM-8, ”-9)
+nsubj(suited-14, tagger-10)
+cop(suited-14, is-11)
+advmod(suited-14, probably-12)
+advmod(suited-14, best-13)
+prep(suited-14, to-15)
+pobj(to-15, cases-16)
+advmod(available-22, where-17)
+neg(data-20, no-18)
+nn(data-20, training-19)
+nsubj(available-22, data-20)
+cop(available-22, is-21)
+advcl(suited-14, available-22)
+punct(available-22, ,-23)
+prep(available-22, for-24)
+pobj(for-24, example-25)
+punct(available-22, ,-26)
+advmod(tagging-28, when-27)
+advcl(available-22, tagging-28)
+dobj(tagging-28, languages-29)
+prep(tagged-38, for-30)
+ref(languages-29, which-31)
+pobj(for-30, which-31)
+neg(data-33, no-32)
+nsubjpass(tagged-38, data-33)
+auxpass(tagged-38, was-34)
+advmod(tagged-38, previously-35)
+dep(tagged-38, hand-36)
+punct(tagged-38, --37)
+rcmod(languages-29, tagged-38)
+punct(suited-14, .-39)
+
+Sentence #21 (17 tokens):
+Skill without imagination is craftsmanship and gives us many useful objects such as wickerwork picnic baskets.
+
+Tokens:
+[Text=Skill CharacterOffsetBegin=2372 CharacterOffsetEnd=2377 PartOfSpeech=NN]
+[Text=without CharacterOffsetBegin=2378 CharacterOffsetEnd=2385 PartOfSpeech=IN]
+[Text=imagination CharacterOffsetBegin=2386 CharacterOffsetEnd=2397 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=2398 CharacterOffsetEnd=2400 PartOfSpeech=VBZ]
+[Text=craftsmanship CharacterOffsetBegin=2401 CharacterOffsetEnd=2414 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=2415 CharacterOffsetEnd=2418 PartOfSpeech=CC]
+[Text=gives CharacterOffsetBegin=2419 CharacterOffsetEnd=2424 PartOfSpeech=VBZ]
+[Text=us CharacterOffsetBegin=2425 CharacterOffsetEnd=2427 PartOfSpeech=PRP]
+[Text=many CharacterOffsetBegin=2428 CharacterOffsetEnd=2432 PartOfSpeech=JJ]
+[Text=useful CharacterOffsetBegin=2433 CharacterOffsetEnd=2439 PartOfSpeech=JJ]
+[Text=objects CharacterOffsetBegin=2440 CharacterOffsetEnd=2447 PartOfSpeech=NNS]
+[Text=such CharacterOffsetBegin=2448 CharacterOffsetEnd=2452 PartOfSpeech=JJ]
+[Text=as CharacterOffsetBegin=2453 CharacterOffsetEnd=2455 PartOfSpeech=IN]
+[Text=wickerwork CharacterOffsetBegin=2456 CharacterOffsetEnd=2466 PartOfSpeech=NN]
+[Text=picnic CharacterOffsetBegin=2467 CharacterOffsetEnd=2473 PartOfSpeech=NN]
+[Text=baskets CharacterOffsetBegin=2474 CharacterOffsetEnd=2481 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=2481 CharacterOffsetEnd=2482 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (NN Skill))
+      (PP (IN without)
+        (NP (NN imagination))))
+    (VP
+      (VP (VBZ is)
+        (NP (NN craftsmanship)))
+      (CC and)
+      (VP (VBZ gives)
+        (NP (PRP us))
+        (NP
+          (NP (JJ many) (JJ useful) (NNS objects))
+          (PP (JJ such) (IN as)
+            (NP (NN wickerwork) (NN picnic) (NNS baskets))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, craftsmanship-5)
+nsubj(craftsmanship-5, Skill-1)
+prep(Skill-1, without-2)
+pobj(without-2, imagination-3)
+cop(craftsmanship-5, is-4)
+cc(craftsmanship-5, and-6)
+conj(craftsmanship-5, gives-7)
+iobj(gives-7, us-8)
+amod(objects-11, many-9)
+amod(objects-11, useful-10)
+dobj(gives-7, objects-11)
+mwe(as-13, such-12)
+prep(objects-11, as-13)
+nn(baskets-16, wickerwork-14)
+nn(baskets-16, picnic-15)
+pobj(as-13, baskets-16)
+punct(craftsmanship-5, .-17)
+
+Sentence #22 (8 tokens):
+Imagination without skill gives us modern art.
+
+Tokens:
+[Text=Imagination CharacterOffsetBegin=2483 CharacterOffsetEnd=2494 PartOfSpeech=NN]
+[Text=without CharacterOffsetBegin=2495 CharacterOffsetEnd=2502 PartOfSpeech=IN]
+[Text=skill CharacterOffsetBegin=2503 CharacterOffsetEnd=2508 PartOfSpeech=NN]
+[Text=gives CharacterOffsetBegin=2509 CharacterOffsetEnd=2514 PartOfSpeech=VBZ]
+[Text=us CharacterOffsetBegin=2515 CharacterOffsetEnd=2517 PartOfSpeech=PRP]
+[Text=modern CharacterOffsetBegin=2518 CharacterOffsetEnd=2524 PartOfSpeech=JJ]
+[Text=art CharacterOffsetBegin=2525 CharacterOffsetEnd=2528 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=2528 CharacterOffsetEnd=2529 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP
+      (NP (NN Imagination))
+      (PP (IN without)
+        (NP (NN skill))))
+    (VP (VBZ gives)
+      (NP (PRP us))
+      (NP (JJ modern) (NN art)))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, gives-4)
+nsubj(gives-4, Imagination-1)
+prep(Imagination-1, without-2)
+pobj(without-2, skill-3)
+iobj(gives-4, us-5)
+amod(art-7, modern-6)
+dobj(gives-4, art-7)
+punct(gives-4, .-8)
+
+Sentence #23 (24 tokens):
+An MoD spokesman said: “Surveys of Astute have now been completed and she will proceed to Faslane under her own power.
+
+Tokens:
+[Text=An CharacterOffsetBegin=2530 CharacterOffsetEnd=2532 PartOfSpeech=DT]
+[Text=MoD CharacterOffsetBegin=2533 CharacterOffsetEnd=2536 PartOfSpeech=NN]
+[Text=spokesman CharacterOffsetBegin=2537 CharacterOffsetEnd=2546 PartOfSpeech=NN]
+[Text=said CharacterOffsetBegin=2547 CharacterOffsetEnd=2551 PartOfSpeech=VBD]
+[Text=: CharacterOffsetBegin=2551 CharacterOffsetEnd=2552 PartOfSpeech=:]
+[Text=“ CharacterOffsetBegin=2553 CharacterOffsetEnd=2554 PartOfSpeech=``]
+[Text=Surveys CharacterOffsetBegin=2554 CharacterOffsetEnd=2561 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=2562 CharacterOffsetEnd=2564 PartOfSpeech=IN]
+[Text=Astute CharacterOffsetBegin=2565 CharacterOffsetEnd=2571 PartOfSpeech=NNP]
+[Text=have CharacterOffsetBegin=2572 CharacterOffsetEnd=2576 PartOfSpeech=VBP]
+[Text=now CharacterOffsetBegin=2577 CharacterOffsetEnd=2580 PartOfSpeech=RB]
+[Text=been CharacterOffsetBegin=2581 CharacterOffsetEnd=2585 PartOfSpeech=VBN]
+[Text=completed CharacterOffsetBegin=2586 CharacterOffsetEnd=2595 PartOfSpeech=VBN]
+[Text=and CharacterOffsetBegin=2596 CharacterOffsetEnd=2599 PartOfSpeech=CC]
+[Text=she CharacterOffsetBegin=2600 CharacterOffsetEnd=2603 PartOfSpeech=PRP]
+[Text=will CharacterOffsetBegin=2604 CharacterOffsetEnd=2608 PartOfSpeech=MD]
+[Text=proceed CharacterOffsetBegin=2609 CharacterOffsetEnd=2616 PartOfSpeech=VB]
+[Text=to CharacterOffsetBegin=2617 CharacterOffsetEnd=2619 PartOfSpeech=IN]
+[Text=Faslane CharacterOffsetBegin=2620 CharacterOffsetEnd=2627 PartOfSpeech=JJ]
+[Text=under CharacterOffsetBegin=2628 CharacterOffsetEnd=2633 PartOfSpeech=IN]
+[Text=her CharacterOffsetBegin=2634 CharacterOffsetEnd=2637 PartOfSpeech=PRP$]
+[Text=own CharacterOffsetBegin=2638 CharacterOffsetEnd=2641 PartOfSpeech=JJ]
+[Text=power CharacterOffsetBegin=2642 CharacterOffsetEnd=2647 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=2647 CharacterOffsetEnd=2648 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (DT An) (NN MoD) (NN spokesman))
+    (VP (VBD said) (: :) (`` “)
+      (S
+        (S
+          (NP
+            (NP (NNS Surveys))
+            (PP (IN of)
+              (NP (NNP Astute))))
+          (VP (VBP have)
+            (ADVP (RB now))
+            (VP (VBN been)
+              (VP (VBN completed)))))
+        (CC and)
+        (S
+          (NP (PRP she))
+          (VP (MD will)
+            (VP (VB proceed)
+              (PP (IN to)
+                (ADJP (JJ Faslane)))
+              (PP (IN under)
+                (NP (PRP$ her) (JJ own) (NN power))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, said-4)
+det(spokesman-3, An-1)
+nn(spokesman-3, MoD-2)
+nsubj(said-4, spokesman-3)
+punct(said-4, :-5)
+punct(said-4, “-6)
+nsubjpass(completed-13, Surveys-7)
+prep(Surveys-7, of-8)
+pobj(of-8, Astute-9)
+aux(completed-13, have-10)
+advmod(completed-13, now-11)
+auxpass(completed-13, been-12)
+ccomp(said-4, completed-13)
+cc(completed-13, and-14)
+nsubj(proceed-17, she-15)
+aux(proceed-17, will-16)
+conj(completed-13, proceed-17)
+prep(proceed-17, to-18)
+pobj(to-18, Faslane-19)
+prep(proceed-17, under-20)
+poss(power-23, her-21)
+amod(power-23, own-22)
+pobj(under-20, power-23)
+punct(said-4, .-24)
+
+Sentence #24 (11 tokens):
+She is being escorted by tugs and HMS Shoreham.”
+
+Tokens:
+[Text=She CharacterOffsetBegin=2649 CharacterOffsetEnd=2652 PartOfSpeech=PRP]
+[Text=is CharacterOffsetBegin=2653 CharacterOffsetEnd=2655 PartOfSpeech=VBZ]
+[Text=being CharacterOffsetBegin=2656 CharacterOffsetEnd=2661 PartOfSpeech=VBG]
+[Text=escorted CharacterOffsetBegin=2662 CharacterOffsetEnd=2670 PartOfSpeech=VBN]
+[Text=by CharacterOffsetBegin=2671 CharacterOffsetEnd=2673 PartOfSpeech=IN]
+[Text=tugs CharacterOffsetBegin=2674 CharacterOffsetEnd=2678 PartOfSpeech=NNS]
+[Text=and CharacterOffsetBegin=2679 CharacterOffsetEnd=2682 PartOfSpeech=CC]
+[Text=HMS CharacterOffsetBegin=2683 CharacterOffsetEnd=2686 PartOfSpeech=NNP]
+[Text=Shoreham CharacterOffsetBegin=2687 CharacterOffsetEnd=2695 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=2695 CharacterOffsetEnd=2696 PartOfSpeech=.]
+[Text=” CharacterOffsetBegin=2696 CharacterOffsetEnd=2697 PartOfSpeech='']
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBZ is)
+      (VP (VBG being)
+        (VP (VBN escorted)
+          (PP (IN by)
+            (NP
+              (NP (NNS tugs))
+              (CC and)
+              (NP (NNP HMS) (NNP Shoreham)))))))
+    (. .) ('' ”)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, escorted-4)
+nsubjpass(escorted-4, She-1)
+aux(escorted-4, is-2)
+auxpass(escorted-4, being-3)
+prep(escorted-4, by-5)
+pobj(by-5, tugs-6)
+cc(tugs-6, and-7)
+nn(Shoreham-9, HMS-8)
+conj(tugs-6, Shoreham-9)
+punct(escorted-4, .-10)
+punct(escorted-4, ”-11)
+
+Sentence #25 (41 tokens):
+But far fewer people fully understand how the Media Lab operates, fits into MIT, and encourages such a creative environment; about half of the anniversary celebration’s program focused on simply defining what the Media Lab is.
+
+Tokens:
+[Text=But CharacterOffsetBegin=2698 CharacterOffsetEnd=2701 PartOfSpeech=CC]
+[Text=far CharacterOffsetBegin=2702 CharacterOffsetEnd=2705 PartOfSpeech=RB]
+[Text=fewer CharacterOffsetBegin=2706 CharacterOffsetEnd=2711 PartOfSpeech=JJR]
+[Text=people CharacterOffsetBegin=2712 CharacterOffsetEnd=2718 PartOfSpeech=NNS]
+[Text=fully CharacterOffsetBegin=2719 CharacterOffsetEnd=2724 PartOfSpeech=RB]
+[Text=understand CharacterOffsetBegin=2725 CharacterOffsetEnd=2735 PartOfSpeech=VBP]
+[Text=how CharacterOffsetBegin=2736 CharacterOffsetEnd=2739 PartOfSpeech=WRB]
+[Text=the CharacterOffsetBegin=2740 CharacterOffsetEnd=2743 PartOfSpeech=DT]
+[Text=Media CharacterOffsetBegin=2744 CharacterOffsetEnd=2749 PartOfSpeech=NNP]
+[Text=Lab CharacterOffsetBegin=2750 CharacterOffsetEnd=2753 PartOfSpeech=NNP]
+[Text=operates CharacterOffsetBegin=2754 CharacterOffsetEnd=2762 PartOfSpeech=VBZ]
+[Text=, CharacterOffsetBegin=2762 CharacterOffsetEnd=2763 PartOfSpeech=,]
+[Text=fits CharacterOffsetBegin=2764 CharacterOffsetEnd=2768 PartOfSpeech=VBZ]
+[Text=into CharacterOffsetBegin=2769 CharacterOffsetEnd=2773 PartOfSpeech=IN]
+[Text=MIT CharacterOffsetBegin=2774 CharacterOffsetEnd=2777 PartOfSpeech=NNP]
+[Text=, CharacterOffsetBegin=2777 CharacterOffsetEnd=2778 PartOfSpeech=,]
+[Text=and CharacterOffsetBegin=2779 CharacterOffsetEnd=2782 PartOfSpeech=CC]
+[Text=encourages CharacterOffsetBegin=2783 CharacterOffsetEnd=2793 PartOfSpeech=VBZ]
+[Text=such CharacterOffsetBegin=2794 CharacterOffsetEnd=2798 PartOfSpeech=PDT]
+[Text=a CharacterOffsetBegin=2799 CharacterOffsetEnd=2800 PartOfSpeech=DT]
+[Text=creative CharacterOffsetBegin=2801 CharacterOffsetEnd=2809 PartOfSpeech=JJ]
+[Text=environment CharacterOffsetBegin=2810 CharacterOffsetEnd=2821 PartOfSpeech=NN]
+[Text=; CharacterOffsetBegin=2821 CharacterOffsetEnd=2822 PartOfSpeech=:]
+[Text=about CharacterOffsetBegin=2823 CharacterOffsetEnd=2828 PartOfSpeech=RB]
+[Text=half CharacterOffsetBegin=2829 CharacterOffsetEnd=2833 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=2834 CharacterOffsetEnd=2836 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=2837 CharacterOffsetEnd=2840 PartOfSpeech=DT]
+[Text=anniversary CharacterOffsetBegin=2841 CharacterOffsetEnd=2852 PartOfSpeech=NN]
+[Text=celebration CharacterOffsetBegin=2853 CharacterOffsetEnd=2864 PartOfSpeech=NN]
+[Text=’s CharacterOffsetBegin=2864 CharacterOffsetEnd=2866 PartOfSpeech=POS]
+[Text=program CharacterOffsetBegin=2867 CharacterOffsetEnd=2874 PartOfSpeech=NN]
+[Text=focused CharacterOffsetBegin=2875 CharacterOffsetEnd=2882 PartOfSpeech=VBD]
+[Text=on CharacterOffsetBegin=2883 CharacterOffsetEnd=2885 PartOfSpeech=IN]
+[Text=simply CharacterOffsetBegin=2886 CharacterOffsetEnd=2892 PartOfSpeech=RB]
+[Text=defining CharacterOffsetBegin=2893 CharacterOffsetEnd=2901 PartOfSpeech=VBG]
+[Text=what CharacterOffsetBegin=2902 CharacterOffsetEnd=2906 PartOfSpeech=WP]
+[Text=the CharacterOffsetBegin=2907 CharacterOffsetEnd=2910 PartOfSpeech=DT]
+[Text=Media CharacterOffsetBegin=2911 CharacterOffsetEnd=2916 PartOfSpeech=NNP]
+[Text=Lab CharacterOffsetBegin=2917 CharacterOffsetEnd=2920 PartOfSpeech=NNP]
+[Text=is CharacterOffsetBegin=2921 CharacterOffsetEnd=2923 PartOfSpeech=VBZ]
+[Text=. CharacterOffsetBegin=2923 CharacterOffsetEnd=2924 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S (CC But)
+    (S
+      (NP
+        (ADJP (RB far) (JJR fewer))
+        (NNS people))
+      (ADVP (RB fully))
+      (VP (VBP understand)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP (DT the) (NNP Media) (NNP Lab))
+            (VP
+              (VP (VBZ operates))
+              (, ,)
+              (VP (VBZ fits)
+                (PP (IN into)
+                  (NP (NNP MIT))))
+              (, ,)
+              (CC and)
+              (VP (VBZ encourages)
+                (NP (PDT such) (DT a) (JJ creative) (NN environment))))))))
+    (: ;)
+    (S
+      (NP
+        (NP
+          (QP (RB about) (NN half)))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN anniversary) (NN celebration) (POS ’s))
+            (NN program))))
+      (VP (VBD focused)
+        (PP (IN on)
+          (S
+            (ADVP (RB simply))
+            (VP (VBG defining)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (DT the) (NNP Media) (NNP Lab))
+                  (VP (VBZ is)))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, understand-6)
+cc(understand-6, But-1)
+advmod(fewer-3, far-2)
+amod(people-4, fewer-3)
+nsubj(understand-6, people-4)
+advmod(understand-6, fully-5)
+advmod(operates-11, how-7)
+det(Lab-10, the-8)
+nn(Lab-10, Media-9)
+nsubj(operates-11, Lab-10)
+ccomp(understand-6, operates-11)
+punct(operates-11, ,-12)
+conj(operates-11, fits-13)
+prep(fits-13, into-14)
+pobj(into-14, MIT-15)
+punct(operates-11, ,-16)
+cc(operates-11, and-17)
+conj(operates-11, encourages-18)
+predet(environment-22, such-19)
+det(environment-22, a-20)
+amod(environment-22, creative-21)
+dobj(encourages-18, environment-22)
+punct(understand-6, ;-23)
+quantmod(half-25, about-24)
+nsubj(focused-32, half-25)
+prep(half-25, of-26)
+det(celebration-29, the-27)
+nn(celebration-29, anniversary-28)
+poss(program-31, celebration-29)
+possessive(celebration-29, ’s-30)
+pobj(of-26, program-31)
+parataxis(understand-6, focused-32)
+prep(focused-32, on-33)
+advmod(defining-35, simply-34)
+pcomp(on-33, defining-35)
+dobj(is-40, what-36)
+det(Lab-39, the-37)
+nn(Lab-39, Media-38)
+nsubj(is-40, Lab-39)
+ccomp(defining-35, is-40)
+punct(understand-6, .-41)
+
+Sentence #26 (38 tokens):
+Instead of constantly worrying about funding, the faculty and students can focus on their project, with the exception of sponsors’ weeks, when they have to convince companies to start or continue their support.
+
+Tokens:
+[Text=Instead CharacterOffsetBegin=2925 CharacterOffsetEnd=2932 PartOfSpeech=RB]
+[Text=of CharacterOffsetBegin=2933 CharacterOffsetEnd=2935 PartOfSpeech=IN]
+[Text=constantly CharacterOffsetBegin=2936 CharacterOffsetEnd=2946 PartOfSpeech=RB]
+[Text=worrying CharacterOffsetBegin=2947 CharacterOffsetEnd=2955 PartOfSpeech=VBG]
+[Text=about CharacterOffsetBegin=2956 CharacterOffsetEnd=2961 PartOfSpeech=IN]
+[Text=funding CharacterOffsetBegin=2962 CharacterOffsetEnd=2969 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=2969 CharacterOffsetEnd=2970 PartOfSpeech=,]
+[Text=the CharacterOffsetBegin=2971 CharacterOffsetEnd=2974 PartOfSpeech=DT]
+[Text=faculty CharacterOffsetBegin=2975 CharacterOffsetEnd=2982 PartOfSpeech=NN]
+[Text=and CharacterOffsetBegin=2983 CharacterOffsetEnd=2986 PartOfSpeech=CC]
+[Text=students CharacterOffsetBegin=2987 CharacterOffsetEnd=2995 PartOfSpeech=NNS]
+[Text=can CharacterOffsetBegin=2996 CharacterOffsetEnd=2999 PartOfSpeech=MD]
+[Text=focus CharacterOffsetBegin=3000 CharacterOffsetEnd=3005 PartOfSpeech=VB]
+[Text=on CharacterOffsetBegin=3006 CharacterOffsetEnd=3008 PartOfSpeech=IN]
+[Text=their CharacterOffsetBegin=3009 CharacterOffsetEnd=3014 PartOfSpeech=PRP$]
+[Text=project CharacterOffsetBegin=3015 CharacterOffsetEnd=3022 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=3022 CharacterOffsetEnd=3023 PartOfSpeech=,]
+[Text=with CharacterOffsetBegin=3024 CharacterOffsetEnd=3028 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3029 CharacterOffsetEnd=3032 PartOfSpeech=DT]
+[Text=exception CharacterOffsetBegin=3033 CharacterOffsetEnd=3042 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=3043 CharacterOffsetEnd=3045 PartOfSpeech=IN]
+[Text=sponsors CharacterOffsetBegin=3046 CharacterOffsetEnd=3054 PartOfSpeech=NNS]
+[Text=’ CharacterOffsetBegin=3054 CharacterOffsetEnd=3055 PartOfSpeech='']
+[Text=weeks CharacterOffsetBegin=3056 CharacterOffsetEnd=3061 PartOfSpeech=NNS]
+[Text=, CharacterOffsetBegin=3061 CharacterOffsetEnd=3062 PartOfSpeech=,]
+[Text=when CharacterOffsetBegin=3063 CharacterOffsetEnd=3067 PartOfSpeech=WRB]
+[Text=they CharacterOffsetBegin=3068 CharacterOffsetEnd=3072 PartOfSpeech=PRP]
+[Text=have CharacterOffsetBegin=3073 CharacterOffsetEnd=3077 PartOfSpeech=VBP]
+[Text=to CharacterOffsetBegin=3078 CharacterOffsetEnd=3080 PartOfSpeech=TO]
+[Text=convince CharacterOffsetBegin=3081 CharacterOffsetEnd=3089 PartOfSpeech=VB]
+[Text=companies CharacterOffsetBegin=3090 CharacterOffsetEnd=3099 PartOfSpeech=NNS]
+[Text=to CharacterOffsetBegin=3100 CharacterOffsetEnd=3102 PartOfSpeech=TO]
+[Text=start CharacterOffsetBegin=3103 CharacterOffsetEnd=3108 PartOfSpeech=VB]
+[Text=or CharacterOffsetBegin=3109 CharacterOffsetEnd=3111 PartOfSpeech=CC]
+[Text=continue CharacterOffsetBegin=3112 CharacterOffsetEnd=3120 PartOfSpeech=VB]
+[Text=their CharacterOffsetBegin=3121 CharacterOffsetEnd=3126 PartOfSpeech=PRP$]
+[Text=support CharacterOffsetBegin=3127 CharacterOffsetEnd=3134 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=3134 CharacterOffsetEnd=3135 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (SINV
+    (PP (RB Instead) (IN of)
+      (S
+        (ADVP (RB constantly))
+        (VP (VBG worrying)
+          (PP (IN about)
+            (NP
+              (NP (NN funding))
+              (, ,)
+              (NP (DT the) (NN faculty))
+              (CC and)
+              (NP (NNS students)))))))
+    (VP (MD can)
+      (VP (VB focus)
+        (PP (IN on)
+          (NP (PRP$ their) (NN project)))
+        (, ,)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN exception))
+            (PP (IN of)
+              (NP (NNS sponsors)))
+            ('' ’)))))
+    (NP
+      (NP (NNS weeks))
+      (, ,)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP they))
+          (VP (VBP have)
+            (S
+              (VP (TO to)
+                (VP (VB convince)
+                  (NP (NNS companies))
+                  (S
+                    (VP (TO to)
+                      (VP (VB start)
+                        (CC or)
+                        (VB continue)
+                        (NP (PRP$ their) (NN support))))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, focus-13)
+advmod(of-2, Instead-1)
+prep(focus-13, of-2)
+advmod(worrying-4, constantly-3)
+pcomp(of-2, worrying-4)
+prep(worrying-4, about-5)
+pobj(about-5, funding-6)
+punct(funding-6, ,-7)
+det(faculty-9, the-8)
+conj(funding-6, faculty-9)
+cc(funding-6, and-10)
+conj(funding-6, students-11)
+aux(focus-13, can-12)
+prep(focus-13, on-14)
+poss(project-16, their-15)
+pobj(on-14, project-16)
+punct(focus-13, ,-17)
+prep(focus-13, with-18)
+det(exception-20, the-19)
+pobj(with-18, exception-20)
+prep(exception-20, of-21)
+pobj(of-21, sponsors-22)
+punct(exception-20, ’-23)
+nsubj(focus-13, weeks-24)
+tmod(have-28, weeks-24)
+punct(weeks-24, ,-25)
+advmod(have-28, when-26)
+nsubj(have-28, they-27)
+nsubj(convince-30, they-27)
+rcmod(weeks-24, have-28)
+aux(convince-30, to-29)
+xcomp(have-28, convince-30)
+dobj(convince-30, companies-31)
+nsubj(start-33, companies-31)
+aux(start-33, to-32)
+xcomp(convince-30, start-33)
+cc(start-33, or-34)
+conj(start-33, continue-35)
+poss(support-37, their-36)
+dobj(start-33, support-37)
+punct(focus-13, .-38)
+
+Sentence #27 (54 tokens):
+The doctors are warning that the NHS cannot make the £20bn of savings by 2014 that ministers expect, while simultaneously undertaking a huge reorganisation that will see England’s 152 primary care trusts (PCTs) abolished and consortiums of GPs assume responsibility for the commissioning of services for patients.
+
+Tokens:
+[Text=The CharacterOffsetBegin=3136 CharacterOffsetEnd=3139 PartOfSpeech=DT]
+[Text=doctors CharacterOffsetBegin=3140 CharacterOffsetEnd=3147 PartOfSpeech=NNS]
+[Text=are CharacterOffsetBegin=3148 CharacterOffsetEnd=3151 PartOfSpeech=VBP]
+[Text=warning CharacterOffsetBegin=3152 CharacterOffsetEnd=3159 PartOfSpeech=VBG]
+[Text=that CharacterOffsetBegin=3160 CharacterOffsetEnd=3164 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3165 CharacterOffsetEnd=3168 PartOfSpeech=DT]
+[Text=NHS CharacterOffsetBegin=3169 CharacterOffsetEnd=3172 PartOfSpeech=NN]
+[Text=can CharacterOffsetBegin=3173 CharacterOffsetEnd=3176 PartOfSpeech=MD]
+[Text=not CharacterOffsetBegin=3176 CharacterOffsetEnd=3179 PartOfSpeech=RB]
+[Text=make CharacterOffsetBegin=3180 CharacterOffsetEnd=3184 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=3185 CharacterOffsetEnd=3188 PartOfSpeech=DT]
+[Text=£ CharacterOffsetBegin=3189 CharacterOffsetEnd=3190 PartOfSpeech=$]
+[Text=20bn CharacterOffsetBegin=3190 CharacterOffsetEnd=3194 PartOfSpeech=CD]
+[Text=of CharacterOffsetBegin=3195 CharacterOffsetEnd=3197 PartOfSpeech=IN]
+[Text=savings CharacterOffsetBegin=3198 CharacterOffsetEnd=3205 PartOfSpeech=NNS]
+[Text=by CharacterOffsetBegin=3206 CharacterOffsetEnd=3208 PartOfSpeech=IN]
+[Text=2014 CharacterOffsetBegin=3209 CharacterOffsetEnd=3213 PartOfSpeech=CD]
+[Text=that CharacterOffsetBegin=3214 CharacterOffsetEnd=3218 PartOfSpeech=WDT]
+[Text=ministers CharacterOffsetBegin=3219 CharacterOffsetEnd=3228 PartOfSpeech=NNS]
+[Text=expect CharacterOffsetBegin=3229 CharacterOffsetEnd=3235 PartOfSpeech=VBP]
+[Text=, CharacterOffsetBegin=3235 CharacterOffsetEnd=3236 PartOfSpeech=,]
+[Text=while CharacterOffsetBegin=3237 CharacterOffsetEnd=3242 PartOfSpeech=IN]
+[Text=simultaneously CharacterOffsetBegin=3243 CharacterOffsetEnd=3257 PartOfSpeech=RB]
+[Text=undertaking CharacterOffsetBegin=3258 CharacterOffsetEnd=3269 PartOfSpeech=VBG]
+[Text=a CharacterOffsetBegin=3270 CharacterOffsetEnd=3271 PartOfSpeech=DT]
+[Text=huge CharacterOffsetBegin=3272 CharacterOffsetEnd=3276 PartOfSpeech=JJ]
+[Text=reorganisation CharacterOffsetBegin=3277 CharacterOffsetEnd=3291 PartOfSpeech=NN]
+[Text=that CharacterOffsetBegin=3292 CharacterOffsetEnd=3296 PartOfSpeech=WDT]
+[Text=will CharacterOffsetBegin=3297 CharacterOffsetEnd=3301 PartOfSpeech=MD]
+[Text=see CharacterOffsetBegin=3302 CharacterOffsetEnd=3305 PartOfSpeech=VB]
+[Text=England CharacterOffsetBegin=3306 CharacterOffsetEnd=3313 PartOfSpeech=NNP]
+[Text=’s CharacterOffsetBegin=3313 CharacterOffsetEnd=3315 PartOfSpeech=POS]
+[Text=152 CharacterOffsetBegin=3316 CharacterOffsetEnd=3319 PartOfSpeech=CD]
+[Text=primary CharacterOffsetBegin=3320 CharacterOffsetEnd=3327 PartOfSpeech=JJ]
+[Text=care CharacterOffsetBegin=3328 CharacterOffsetEnd=3332 PartOfSpeech=NN]
+[Text=trusts CharacterOffsetBegin=3333 CharacterOffsetEnd=3339 PartOfSpeech=NNS]
+[Text=( CharacterOffsetBegin=3340 CharacterOffsetEnd=3341 PartOfSpeech=-LRB-]
+[Text=PCTs CharacterOffsetBegin=3341 CharacterOffsetEnd=3345 PartOfSpeech=NNS]
+[Text=) CharacterOffsetBegin=3345 CharacterOffsetEnd=3346 PartOfSpeech=-RRB-]
+[Text=abolished CharacterOffsetBegin=3347 CharacterOffsetEnd=3356 PartOfSpeech=VBD]
+[Text=and CharacterOffsetBegin=3357 CharacterOffsetEnd=3360 PartOfSpeech=CC]
+[Text=consortiums CharacterOffsetBegin=3361 CharacterOffsetEnd=3372 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=3373 CharacterOffsetEnd=3375 PartOfSpeech=IN]
+[Text=GPs CharacterOffsetBegin=3376 CharacterOffsetEnd=3379 PartOfSpeech=NNS]
+[Text=assume CharacterOffsetBegin=3380 CharacterOffsetEnd=3386 PartOfSpeech=VBP]
+[Text=responsibility CharacterOffsetBegin=3387 CharacterOffsetEnd=3401 PartOfSpeech=NN]
+[Text=for CharacterOffsetBegin=3402 CharacterOffsetEnd=3405 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=3406 CharacterOffsetEnd=3409 PartOfSpeech=DT]
+[Text=commissioning CharacterOffsetBegin=3410 CharacterOffsetEnd=3423 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=3424 CharacterOffsetEnd=3426 PartOfSpeech=IN]
+[Text=services CharacterOffsetBegin=3427 CharacterOffsetEnd=3435 PartOfSpeech=NNS]
+[Text=for CharacterOffsetBegin=3436 CharacterOffsetEnd=3439 PartOfSpeech=IN]
+[Text=patients CharacterOffsetBegin=3440 CharacterOffsetEnd=3448 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=3448 CharacterOffsetEnd=3449 PartOfSpeech=.]
+
+Constituency parse: 
+(ROOT
+  (S
+    (NP (DT The) (NNS doctors))
+    (VP (VBP are)
+      (VP (VBG warning)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN NHS))
+            (VP (MD can) (RB not)
+              (VP (VB make)
+                (NP
+                  (NP (DT the) ($ £) (CD 20bn))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNS savings))
+                      (PP (IN by)
+                        (NP (CD 2014))))))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (NP (NNS ministers))
+                    (VP (VBP expect))))
+                (, ,)
+                (SBAR (IN while)
+                  (S
+                    (S
+                      (ADVP (RB simultaneously))
+                      (S
+                        (VP (VBG undertaking)
+                          (NP
+                            (NP (DT a) (JJ huge) (NN reorganisation))
+                            (SBAR
+                              (WHNP (WDT that))
+                              (S
+                                (VP (MD will)
+                                  (VP (VB see)
+                                    (NP
+                                      (NP
+                                        (NP (NNP England) (POS ’s))
+                                        (CD 152) (JJ primary) (NN care) (NNS trusts))
+                                      (-LRB- -LRB-)
+                                      (NP (NNS PCTs))
+                                      (-RRB- -RRB-)))))))))
+                      (VP (VBD abolished)))
+                    (CC and)
+                    (S
+                      (NP
+                        (NP (NNS consortiums))
+                        (PP (IN of)
+                          (NP (NNS GPs))))
+                      (VP (VBP assume)
+                        (NP (NN responsibility))
+                        (PP (IN for)
+                          (NP
+                            (NP (DT the) (NN commissioning))
+                            (PP (IN of)
+                              (NP
+                                (NP (NNS services))
+                                (PP (IN for)
+                                  (NP (NNS patients)))))))))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, warning-4)
+det(doctors-2, The-1)
+nsubj(warning-4, doctors-2)
+aux(warning-4, are-3)
+mark(make-10, that-5)
+det(NHS-7, the-6)
+nsubj(make-10, NHS-7)
+aux(make-10, can-8)
+neg(make-10, not-9)
+ccomp(warning-4, make-10)
+det(£-12, the-11)
+dobj(make-10, £-12)
+num(£-12, 20bn-13)
+prep(£-12, of-14)
+pobj(of-14, savings-15)
+prep(savings-15, by-16)
+pobj(by-16, 2014-17)
+dobj(expect-20, that-18)
+nsubj(expect-20, ministers-19)
+dep(make-10, expect-20)
+punct(make-10, ,-21)
+mark(abolished-40, while-22)
+advmod(abolished-40, simultaneously-23)
+csubj(abolished-40, undertaking-24)
+det(reorganisation-27, a-25)
+amod(reorganisation-27, huge-26)
+dobj(undertaking-24, reorganisation-27)
+ref(reorganisation-27, that-28)
+nsubj(see-30, that-28)
+aux(see-30, will-29)
+rcmod(reorganisation-27, see-30)
+poss(trusts-36, England-31)
+possessive(England-31, ’s-32)
+num(trusts-36, 152-33)
+amod(trusts-36, primary-34)
+nn(trusts-36, care-35)
+dobj(see-30, trusts-36)
+iobj(see-30, trusts-36)
+punct(trusts-36, (-37)
+dep(trusts-36, PCTs-38)
+punct(trusts-36, )-39)
+advcl(make-10, abolished-40)
+cc(abolished-40, and-41)
+nsubj(assume-45, consortiums-42)
+prep(consortiums-42, of-43)
+pobj(of-43, GPs-44)
+conj(abolished-40, assume-45)
+dobj(assume-45, responsibility-46)
+prep(assume-45, for-47)
+det(commissioning-49, the-48)
+pobj(for-47, commissioning-49)
+prep(commissioning-49, of-50)
+pobj(of-50, services-51)
+prep(services-51, for-52)
+pobj(for-52, patients-53)
+punct(warning-4, .-54)

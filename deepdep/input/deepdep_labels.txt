@@ -1,0 +1,101 @@
+;;---------------------------------------------------------------------------
+;;Finite thatless relative clauses
+;;
+1001000700030@barerel@1@in-14 ARG2 competition-9@A@
+1001000700030@barerel@1@competition-9 MOD competed-13@B@
+1001000700030@barerel@1@was-28 MOD time-26@B@
+1001000700030@barerel@1@time-26 MOD was-28@A@
+1001002900040@barerel@1@play-8 ARG2 last-4@B@
+1001002900040@barerel@1@last-4 MOD would-7|play-8@A@
+1004006501040@barerel@1@composed-23 ARG2 parts-21@B@
+1004006501040@barerel@1@parts-21 MOD composed-23@A@
+;;
+;;---------------------------------------------------------------------------
+;;Interleaved arguments and adjuncts
+;;
+1000056200090@argadj@1@shows-2 MOD through-3@A@
+1000056200090@argadj@1@shows-2 ARG2 histories-7@B@
+1000058400070@argadj@1@refer-15 MOD in-16@A@
+1000058400070@argadj@1@refer-15 ARG2 to-19@B@
+1000058400070@argadj@1@refer-15 ARG2 to-23@B@
+1005059300090@argadj@1@establishes-5 MOD with-6@A@
+1005059300090@argadj@1@establishes-5 ARG2 house-11@B@
+;;
+;;---------------------------------------------------------------------------
+;;Absolutives
+;;
+1000065200110@absol@1@being-18|in-19 ARG1 use-17@A@
+1000065200110@absol@1@served-1 MOD being-18|in-19@B@
+1001061200040@absol@1@facing-8 ARG1 team-7@A@
+1001061200040@absol@1@consisted-2 MOD facing-8@B@
+1005061100410@absol@1@being-8 ARG1 ransom-7@A@
+1005061100410@absol@1@held-2 MOD being-8@B@
+;;
+;;---------------------------------------------------------------------------
+;;Adj-or-N + N-ed
+;;
+1000114900140@ned@1@handed-19 MOD empty-18@B@
+1000114900140@ned@1@leaving-17 MOD handed-19@A@
+1000117600020@ned@1@membered-21 MOD five--20|five-20@B@
+1000117600020@ned@1@ring-22 MOD membered-21@A@
+1005112400050@ned@1@priced-10 MOD low--9|low-9@B@
+1005112400050@ned@1@software-11 MOD priced-10@A@
+;;
+;;---------------------------------------------------------------------------
+;;Verbal gerunds (skip |after|before|by| and one-word gerunds)
+;;
+1000100500250@vger@1@for-15 ARG2 allocating-16@A@
+1000100500250@vger@1@allocating-16 ARG2 domains-20@B@
+1000102101240@vger@1@in-10 ARG2 bringing-11@A@
+1000102101240@vger@1@bringing-11 ARG2 system-13@B@
+1000102101470@vger@1@for-7 ARG2 dealing-8@A@
+1000102101470@vger@1@dealing-8 ARG2 with-9@B@
+;;
+;;---------------------------------------------------------------------------
+;;Tough adjectives
+;;
+1000020101720@tough@1@silence-8 ARG2 Fanny-0@B@
+1000020101720@tough@1@difficult-6 ARG2 to-7|silence-8@A@
+1000023400110@tough@1@understand-33 ARG2 marriage-18@B@
+1000023400110@tough@1@easier-31 ARG2 to-32|understand-33@A@
+1002624500440@tough@1@drive-17 ARG2 car-13@B@
+1002624500440@tough@1@impossible-15 ARG2 to-16|drive-17@A@
+;;
+;;---------------------------------------------------------------------------
+;; Verb-particles
+;;
+1000256900190@vpart@1@putting+together-5 ARG2 band-9@B@
+1000256900190@vpart@0@together-6 ARG2 band-9@A@
+1001257300450@vpart@1@held+off-1 ARG2 comeback-5@B@
+1001257300450@vpart@0@off-2 ARG2 comeback-5@A@
+1005258300750@vpart@1@selling+out-9 ARG2 edition-13@B@
+1005258300750@vpart@0@out-10 ARG2 edition-13@A@
+;;
+;;---------------------------------------------------------------------------
+;; Expletive it
+;;
+1001339800250@itexpl@0@\w+-999 ARG1 it-5@A@
+1002037300180@itexpl@0@\w+-999 ARG it-5@A@
+1007435402200@itexpl@0@\w+-999 ARG1 It-0@A@
+;;
+;;---------------------------------------------------------------------------
+;;Controlled VPs (seq, oeq, ssr, sor)
+;;
+1005172400080@control@1@tries-1 ARG2 to-2|hide-3@A@
+1005172400080@control@1@hide-3 ARG1 He-0@B@
+1009173101030@control@1@like-12 ARG2 to-13|take-14@A@
+1009173101030@control@1@take-14 ARG1 they-10@B@
+1005160300370@control@1@encourage-2 ARG3 to-5|take+part-6@A@
+1005160300370@control@1@take+part-6 ARG1 adherents-4@B@
+;;
+;;---------------------------------------------------------------------------
+;;Right node raising items
+;;
+1001022702220@rnr@1@to-13 ARG2 directions-18@B@
+1001022702220@rnr@1@following-15 ARG2 directions-18@A@
+1005012800320@rnr@1@to-3 ARG2 clients-8@B@
+1005012800320@rnr@1@with-5 ARG2 clients-8@B@
+1005012800320@rnr@1@support-7 ARG2 clients-8@A@
+1009017100300@rnr@1@include-3 ARG2 procedures-9@B@
+1009017100300@rnr@1@to-8 ARG2 procedures-9@A@
+
